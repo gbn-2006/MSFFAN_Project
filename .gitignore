@@ -1,0 +1,29 @@
+# Dataset and generated data
+data/
+
+# Trained model checkpoints
+models/
+
+# Training/evaluation logs
+logs/
+
+# Generated results
+results/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
