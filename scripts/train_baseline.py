@@ -14,7 +14,7 @@ from skimage.metrics import structural_similarity
 # CONFIGURATION
 # ============================================================
 
-PROJECT_ROOT = Path("/content/drive/MyDrive/MSFFAN_Project")
+PROJECT_ROOT = Path("/mnt/c/MSFFAN_Project")
 SCRIPTS_DIR = PROJECT_ROOT / "scripts"
 DATASET_ROOT = PROJECT_ROOT / "data" / "dataset"
 LOG_DIR = PROJECT_ROOT / "logs"
@@ -24,7 +24,7 @@ BATCH_SIZE = 4
 NUM_WORKERS = 2
 
 LEARNING_RATE = 1e-4
-EPOCHS = 5
+EPOCHS = 30
 
 # False = complete epoch
 # True  = limited smoke test
@@ -87,8 +87,8 @@ dataset_module = load_module(
 )
 
 model_module = load_module(
-    "model_msffan",
-    "model_msffan.py"
+    "model_msffan_baseline",
+    "model_msffan_baseline.py"
 )
 
 loss_module = load_module(
@@ -97,7 +97,7 @@ loss_module = load_module(
 )
 
 MSFFANDataset = dataset_module.MSFFANDataset
-MSFFANModel = model_module.MSFFANModel
+MSFFANModel = model_module.MSFFANBaselineModel
 MSFFANLoss = loss_module.MSFFANLoss
 
 

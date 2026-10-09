@@ -24,7 +24,7 @@ BATCH_SIZE = 4
 NUM_WORKERS = 2
 
 LEARNING_RATE = 1e-4
-EPOCHS = 5
+EPOCHS = 30
 
 # False = complete epoch
 # True  = limited smoke test
