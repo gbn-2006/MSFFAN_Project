@@ -1,0 +1,20 @@
+{
+    "test_samples": 500,
+    "device": "cuda",
+    "baseline": {
+        "checkpoint": "/mnt/c/MSFFAN_Project/models/baseline_best.pth",
+        "parameters": 725425,
+        "psnr": 25.16286834716797,
+        "ssim": 0.838523498058319
+    },
+    "proposed": {
+        "checkpoint": "/mnt/c/MSFFAN_Project/models/asgf_best.pth",
+        "parameters": 717427,
+        "psnr": 25.097339462280274,
+        "ssim": 0.8380640087127685
+    },
+    "difference": {
+        "psnr": -0.06552888488769426,
+        "ssim": -0.00045948934555051224
+    }
+}
