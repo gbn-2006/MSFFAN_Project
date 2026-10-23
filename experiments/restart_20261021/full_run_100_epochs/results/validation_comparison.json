@@ -1,0 +1,20 @@
+{
+  "split": "val",
+  "num_images": 500,
+  "checkpoint_epoch": 6,
+  "baseline_sha256": "4f1843da5ad95cc9f4759e84cfc71d824b7f05227c9b448f7c004205faaca21c",
+  "baseline_checkpoint": "/mnt/c/MSFFAN_Project/models/baseline_best.pth",
+  "refinement_checkpoint": "/mnt/c/MSFFAN_Project/experiments/restart_20261021/full_run_100_epochs/checkpoints/refinement_best.pth",
+  "metric_protocol": "Per-image PSNR and skimage SSIM; predictions and targets clamped to [0,1]; same images and preprocessing for both models.",
+  "baseline_mean_psnr": 24.180158717344767,
+  "refinement_mean_psnr": 24.174636830775963,
+  "mean_delta_psnr": -0.005521886568804383,
+  "baseline_mean_ssim": 0.6032956877946853,
+  "refinement_mean_ssim": 0.6042155657410622,
+  "mean_delta_ssim": 0.0009198779463768005,
+  "images_psnr_improved": 272,
+  "images_psnr_unchanged": 0,
+  "images_psnr_regressed": 228,
+  "images_ssim_improved": 395,
+  "images_ssim_regressed": 105
+}

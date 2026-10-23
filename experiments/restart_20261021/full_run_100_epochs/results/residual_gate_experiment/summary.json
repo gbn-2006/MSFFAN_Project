@@ -1,0 +1,68 @@
+{
+  "split": "val",
+  "num_images": 500,
+  "checkpoint_epoch": 6,
+  "baseline_sha256": "4f1843da5ad95cc9f4759e84cfc71d824b7f05227c9b448f7c004205faaca21c",
+  "gates": {
+    "0.0": {
+      "mean_psnr": 24.180158717344767,
+      "mean_ssim": 0.6032956877946853,
+      "mean_delta_psnr": 0.0,
+      "median_delta_psnr": 0.0,
+      "mean_delta_ssim": 0.0,
+      "psnr_improved_images": 0,
+      "psnr_unchanged_images": 500,
+      "psnr_regressed_images": 0,
+      "ssim_improved_images": 0,
+      "ssim_regressed_images": 0
+    },
+    "0.25": {
+      "mean_psnr": 24.184254854431384,
+      "mean_ssim": 0.6035654468536377,
+      "mean_delta_psnr": 0.004096137086616686,
+      "median_delta_psnr": 0.00477396234255778,
+      "mean_delta_ssim": 0.0002697590589523315,
+      "psnr_improved_images": 331,
+      "psnr_unchanged_images": 0,
+      "psnr_regressed_images": 169,
+      "ssim_improved_images": 413,
+      "ssim_regressed_images": 87
+    },
+    "0.5": {
+      "mean_psnr": 24.184682010441545,
+      "mean_ssim": 0.6038087064027786,
+      "mean_delta_psnr": 0.00452329309677846,
+      "median_delta_psnr": 0.007505363413775612,
+      "mean_delta_ssim": 0.0005130186080932617,
+      "psnr_improved_images": 315,
+      "psnr_unchanged_images": 0,
+      "psnr_regressed_images": 185,
+      "ssim_improved_images": 408,
+      "ssim_regressed_images": 92
+    },
+    "0.75": {
+      "mean_psnr": 24.18145466032136,
+      "mean_ssim": 0.6040254222154617,
+      "mean_delta_psnr": 0.0012959429765926984,
+      "median_delta_psnr": 0.0075007630844829976,
+      "mean_delta_ssim": 0.0007297344207763672,
+      "psnr_improved_images": 288,
+      "psnr_unchanged_images": 0,
+      "psnr_regressed_images": 212,
+      "ssim_improved_images": 401,
+      "ssim_regressed_images": 99
+    },
+    "1.0": {
+      "mean_psnr": 24.174636830775963,
+      "mean_ssim": 0.6042155657410622,
+      "mean_delta_psnr": -0.005521886568804383,
+      "median_delta_psnr": 0.005349862080919365,
+      "mean_delta_ssim": 0.0009198779463768005,
+      "psnr_improved_images": 272,
+      "psnr_unchanged_images": 0,
+      "psnr_regressed_images": 228,
+      "ssim_improved_images": 395,
+      "ssim_regressed_images": 105
+    }
+  }
+}
