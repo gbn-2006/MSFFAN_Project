@@ -35,3 +35,13 @@ results/*
 results/test_evaluation/*
 !results/test_evaluation/test_summary.json
 !results/test_evaluation/per_sample_results.json
+
+# Preserve the verified FiLM experiment
+!experiments/architecture_comparison_20261023/film/models/
+!experiments/architecture_comparison_20261023/film/models/*.pth
+!experiments/architecture_comparison_20261023/film/logs/
+!experiments/architecture_comparison_20261023/film/logs/*.json
+!experiments/architecture_comparison_20261023/film/logs/*.log
+!experiments/architecture_comparison_20261023/film/evaluation/
+!experiments/architecture_comparison_20261023/film/evaluation/*.json
+!experiments/architecture_comparison_20261023/film/evaluation/*.log

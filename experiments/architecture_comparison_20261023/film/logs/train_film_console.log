@@ -1,0 +1,2155 @@
+======================================================================
+STEP 13G / 13I — PROPOSED MSFFAN TRAINING
+======================================================================
+Project root : /mnt/c/MSFFAN_Project
+Device       : cuda
+GPU          : NVIDIA GeForce RTX 3050 Laptop GPU
+Seed         : 42
+Batch size   : 4
+Workers      : 2
+Learning rate: 0.0001
+Epochs       : 100
+
+Loading datasets...
+Train samples: 4096
+Validation samples: 500
+
+Proposed model parameters: 727,987
+Epoch 1/100 | Batch 1/1024 | Loss 0.466682
+Epoch 1/100 | Batch 100/1024 | Loss 0.092485
+Epoch 1/100 | Batch 200/1024 | Loss 0.090380
+Epoch 1/100 | Batch 300/1024 | Loss 0.076013
+Epoch 1/100 | Batch 400/1024 | Loss 0.085329
+Epoch 1/100 | Batch 500/1024 | Loss 0.065623
+Epoch 1/100 | Batch 600/1024 | Loss 0.066898
+Epoch 1/100 | Batch 700/1024 | Loss 0.073245
+Epoch 1/100 | Batch 800/1024 | Loss 0.059245
+Epoch 1/100 | Batch 900/1024 | Loss 0.073300
+Epoch 1/100 | Batch 1000/1024 | Loss 0.064470
+
+----------------------------------------------------------------------
+Epoch 1/100 COMPLETE
+Train Loss : 0.084899
+Val Loss   : 0.061315
+Val PSNR   : 23.0480 dB
+Val SSIM   : 0.562349
+Time       : 339.60 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 2/100 | Batch 1/1024 | Loss 0.075264
+Epoch 2/100 | Batch 100/1024 | Loss 0.072307
+Epoch 2/100 | Batch 200/1024 | Loss 0.066111
+Epoch 2/100 | Batch 300/1024 | Loss 0.065652
+Epoch 2/100 | Batch 400/1024 | Loss 0.063585
+Epoch 2/100 | Batch 500/1024 | Loss 0.071399
+Epoch 2/100 | Batch 600/1024 | Loss 0.059063
+Epoch 2/100 | Batch 700/1024 | Loss 0.050471
+Epoch 2/100 | Batch 800/1024 | Loss 0.056922
+Epoch 2/100 | Batch 900/1024 | Loss 0.067204
+Epoch 2/100 | Batch 1000/1024 | Loss 0.060892
+
+----------------------------------------------------------------------
+Epoch 2/100 COMPLETE
+Train Loss : 0.066192
+Val Loss   : 0.058363
+Val PSNR   : 23.5728 dB
+Val SSIM   : 0.578497
+Time       : 343.95 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 3/100 | Batch 1/1024 | Loss 0.070551
+Epoch 3/100 | Batch 100/1024 | Loss 0.063253
+Epoch 3/100 | Batch 200/1024 | Loss 0.062154
+Epoch 3/100 | Batch 300/1024 | Loss 0.067105
+Epoch 3/100 | Batch 400/1024 | Loss 0.062638
+Epoch 3/100 | Batch 500/1024 | Loss 0.070067
+Epoch 3/100 | Batch 600/1024 | Loss 0.064492
+Epoch 3/100 | Batch 700/1024 | Loss 0.068667
+Epoch 3/100 | Batch 800/1024 | Loss 0.080108
+Epoch 3/100 | Batch 900/1024 | Loss 0.057868
+Epoch 3/100 | Batch 1000/1024 | Loss 0.057006
+
+----------------------------------------------------------------------
+Epoch 3/100 COMPLETE
+Train Loss : 0.064792
+Val Loss   : 0.057684
+Val PSNR   : 23.6898 dB
+Val SSIM   : 0.583884
+Time       : 352.01 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 4/100 | Batch 1/1024 | Loss 0.071565
+Epoch 4/100 | Batch 100/1024 | Loss 0.075646
+Epoch 4/100 | Batch 200/1024 | Loss 0.074877
+Epoch 4/100 | Batch 300/1024 | Loss 0.069643
+Epoch 4/100 | Batch 400/1024 | Loss 0.060716
+Epoch 4/100 | Batch 500/1024 | Loss 0.072426
+Epoch 4/100 | Batch 600/1024 | Loss 0.070004
+Epoch 4/100 | Batch 700/1024 | Loss 0.065613
+Epoch 4/100 | Batch 800/1024 | Loss 0.077512
+Epoch 4/100 | Batch 900/1024 | Loss 0.069154
+Epoch 4/100 | Batch 1000/1024 | Loss 0.060955
+
+----------------------------------------------------------------------
+Epoch 4/100 COMPLETE
+Train Loss : 0.063800
+Val Loss   : 0.057971
+Val PSNR   : 23.5894 dB
+Val SSIM   : 0.590714
+Time       : 340.50 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 5/100 | Batch 1/1024 | Loss 0.062755
+Epoch 5/100 | Batch 100/1024 | Loss 0.056623
+Epoch 5/100 | Batch 200/1024 | Loss 0.064261
+Epoch 5/100 | Batch 300/1024 | Loss 0.048741
+Epoch 5/100 | Batch 400/1024 | Loss 0.064068
+Epoch 5/100 | Batch 500/1024 | Loss 0.061360
+Epoch 5/100 | Batch 600/1024 | Loss 0.059178
+Epoch 5/100 | Batch 700/1024 | Loss 0.069215
+Epoch 5/100 | Batch 800/1024 | Loss 0.059008
+Epoch 5/100 | Batch 900/1024 | Loss 0.058934
+Epoch 5/100 | Batch 1000/1024 | Loss 0.071530
+
+----------------------------------------------------------------------
+Epoch 5/100 COMPLETE
+Train Loss : 0.063318
+Val Loss   : 0.056642
+Val PSNR   : 23.7877 dB
+Val SSIM   : 0.588862
+Time       : 285.50 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 6/100 | Batch 1/1024 | Loss 0.061524
+Epoch 6/100 | Batch 100/1024 | Loss 0.072959
+Epoch 6/100 | Batch 200/1024 | Loss 0.060402
+Epoch 6/100 | Batch 300/1024 | Loss 0.067044
+Epoch 6/100 | Batch 400/1024 | Loss 0.062043
+Epoch 6/100 | Batch 500/1024 | Loss 0.079472
+Epoch 6/100 | Batch 600/1024 | Loss 0.057924
+Epoch 6/100 | Batch 700/1024 | Loss 0.070325
+Epoch 6/100 | Batch 800/1024 | Loss 0.063653
+Epoch 6/100 | Batch 900/1024 | Loss 0.072817
+Epoch 6/100 | Batch 1000/1024 | Loss 0.068165
+
+----------------------------------------------------------------------
+Epoch 6/100 COMPLETE
+Train Loss : 0.062922
+Val Loss   : 0.056744
+Val PSNR   : 23.8001 dB
+Val SSIM   : 0.588633
+Time       : 312.68 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 7/100 | Batch 1/1024 | Loss 0.058358
+Epoch 7/100 | Batch 100/1024 | Loss 0.069808
+Epoch 7/100 | Batch 200/1024 | Loss 0.072462
+Epoch 7/100 | Batch 300/1024 | Loss 0.062514
+Epoch 7/100 | Batch 400/1024 | Loss 0.051884
+Epoch 7/100 | Batch 500/1024 | Loss 0.049086
+Epoch 7/100 | Batch 600/1024 | Loss 0.050667
+Epoch 7/100 | Batch 700/1024 | Loss 0.057312
+Epoch 7/100 | Batch 800/1024 | Loss 0.066283
+Epoch 7/100 | Batch 900/1024 | Loss 0.054922
+Epoch 7/100 | Batch 1000/1024 | Loss 0.057389
+
+----------------------------------------------------------------------
+Epoch 7/100 COMPLETE
+Train Loss : 0.062590
+Val Loss   : 0.056876
+Val PSNR   : 23.7701 dB
+Val SSIM   : 0.591652
+Time       : 254.87 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 8/100 | Batch 1/1024 | Loss 0.066753
+Epoch 8/100 | Batch 100/1024 | Loss 0.080838
+Epoch 8/100 | Batch 200/1024 | Loss 0.058881
+Epoch 8/100 | Batch 300/1024 | Loss 0.063870
+Epoch 8/100 | Batch 400/1024 | Loss 0.053728
+Epoch 8/100 | Batch 500/1024 | Loss 0.074391
+Epoch 8/100 | Batch 600/1024 | Loss 0.050120
+Epoch 8/100 | Batch 700/1024 | Loss 0.062833
+Epoch 8/100 | Batch 800/1024 | Loss 0.059881
+Epoch 8/100 | Batch 900/1024 | Loss 0.054323
+Epoch 8/100 | Batch 1000/1024 | Loss 0.057221
+
+----------------------------------------------------------------------
+Epoch 8/100 COMPLETE
+Train Loss : 0.062299
+Val Loss   : 0.057425
+Val PSNR   : 23.7224 dB
+Val SSIM   : 0.590791
+Time       : 252.06 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 9/100 | Batch 1/1024 | Loss 0.065355
+Epoch 9/100 | Batch 100/1024 | Loss 0.067461
+Epoch 9/100 | Batch 200/1024 | Loss 0.053392
+Epoch 9/100 | Batch 300/1024 | Loss 0.058204
+Epoch 9/100 | Batch 400/1024 | Loss 0.065153
+Epoch 9/100 | Batch 500/1024 | Loss 0.045437
+Epoch 9/100 | Batch 600/1024 | Loss 0.041277
+Epoch 9/100 | Batch 700/1024 | Loss 0.060920
+Epoch 9/100 | Batch 800/1024 | Loss 0.063771
+Epoch 9/100 | Batch 900/1024 | Loss 0.053911
+Epoch 9/100 | Batch 1000/1024 | Loss 0.060907
+
+----------------------------------------------------------------------
+Epoch 9/100 COMPLETE
+Train Loss : 0.062008
+Val Loss   : 0.055724
+Val PSNR   : 23.9198 dB
+Val SSIM   : 0.596253
+Time       : 4956.93 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 10/100 | Batch 1/1024 | Loss 0.058763
+Epoch 10/100 | Batch 100/1024 | Loss 0.053738
+Epoch 10/100 | Batch 200/1024 | Loss 0.062098
+Epoch 10/100 | Batch 300/1024 | Loss 0.068163
+Epoch 10/100 | Batch 400/1024 | Loss 0.067832
+Epoch 10/100 | Batch 500/1024 | Loss 0.057379
+Epoch 10/100 | Batch 600/1024 | Loss 0.050296
+Epoch 10/100 | Batch 700/1024 | Loss 0.057038
+Epoch 10/100 | Batch 800/1024 | Loss 0.055807
+Epoch 10/100 | Batch 900/1024 | Loss 0.060590
+Epoch 10/100 | Batch 1000/1024 | Loss 0.050193
+
+----------------------------------------------------------------------
+Epoch 10/100 COMPLETE
+Train Loss : 0.061733
+Val Loss   : 0.056144
+Val PSNR   : 23.8374 dB
+Val SSIM   : 0.597470
+Time       : 281.00 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 11/100 | Batch 1/1024 | Loss 0.058476
+Epoch 11/100 | Batch 100/1024 | Loss 0.059236
+Epoch 11/100 | Batch 200/1024 | Loss 0.048776
+Epoch 11/100 | Batch 300/1024 | Loss 0.071939
+Epoch 11/100 | Batch 400/1024 | Loss 0.066234
+Epoch 11/100 | Batch 500/1024 | Loss 0.061915
+Epoch 11/100 | Batch 600/1024 | Loss 0.057427
+Epoch 11/100 | Batch 700/1024 | Loss 0.063928
+Epoch 11/100 | Batch 800/1024 | Loss 0.056797
+Epoch 11/100 | Batch 900/1024 | Loss 0.049561
+Epoch 11/100 | Batch 1000/1024 | Loss 0.067870
+
+----------------------------------------------------------------------
+Epoch 11/100 COMPLETE
+Train Loss : 0.061516
+Val Loss   : 0.056739
+Val PSNR   : 23.7357 dB
+Val SSIM   : 0.598799
+Time       : 268.54 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 12/100 | Batch 1/1024 | Loss 0.064892
+Epoch 12/100 | Batch 100/1024 | Loss 0.053035
+Epoch 12/100 | Batch 200/1024 | Loss 0.066168
+Epoch 12/100 | Batch 300/1024 | Loss 0.053213
+Epoch 12/100 | Batch 400/1024 | Loss 0.056521
+Epoch 12/100 | Batch 500/1024 | Loss 0.067572
+Epoch 12/100 | Batch 600/1024 | Loss 0.059473
+Epoch 12/100 | Batch 700/1024 | Loss 0.063960
+Epoch 12/100 | Batch 800/1024 | Loss 0.072500
+Epoch 12/100 | Batch 900/1024 | Loss 0.064649
+Epoch 12/100 | Batch 1000/1024 | Loss 0.057044
+
+----------------------------------------------------------------------
+Epoch 12/100 COMPLETE
+Train Loss : 0.061129
+Val Loss   : 0.056492
+Val PSNR   : 23.7506 dB
+Val SSIM   : 0.594776
+Time       : 265.40 sec
+----------------------------------------------------------------------
+Epochs without improvement: 3/15
+Epoch 13/100 | Batch 1/1024 | Loss 0.050962
+Epoch 13/100 | Batch 100/1024 | Loss 0.061635
+Epoch 13/100 | Batch 200/1024 | Loss 0.051952
+Epoch 13/100 | Batch 300/1024 | Loss 0.059410
+Epoch 13/100 | Batch 400/1024 | Loss 0.076354
+Epoch 13/100 | Batch 500/1024 | Loss 0.057344
+Epoch 13/100 | Batch 600/1024 | Loss 0.055726
+Epoch 13/100 | Batch 700/1024 | Loss 0.059556
+Epoch 13/100 | Batch 800/1024 | Loss 0.064489
+Epoch 13/100 | Batch 900/1024 | Loss 0.052882
+Epoch 13/100 | Batch 1000/1024 | Loss 0.059949
+
+----------------------------------------------------------------------
+Epoch 13/100 COMPLETE
+Train Loss : 0.060993
+Val Loss   : 0.055256
+Val PSNR   : 23.9770 dB
+Val SSIM   : 0.598959
+Time       : 265.99 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 14/100 | Batch 1/1024 | Loss 0.064136
+Epoch 14/100 | Batch 100/1024 | Loss 0.063800
+Epoch 14/100 | Batch 200/1024 | Loss 0.062373
+Epoch 14/100 | Batch 300/1024 | Loss 0.064695
+Epoch 14/100 | Batch 400/1024 | Loss 0.070644
+Epoch 14/100 | Batch 500/1024 | Loss 0.052358
+Epoch 14/100 | Batch 600/1024 | Loss 0.056591
+Epoch 14/100 | Batch 700/1024 | Loss 0.067562
+Epoch 14/100 | Batch 800/1024 | Loss 0.059451
+Epoch 14/100 | Batch 900/1024 | Loss 0.054377
+Epoch 14/100 | Batch 1000/1024 | Loss 0.057486
+
+----------------------------------------------------------------------
+Epoch 14/100 COMPLETE
+Train Loss : 0.060738
+Val Loss   : 0.056151
+Val PSNR   : 23.8417 dB
+Val SSIM   : 0.600122
+Time       : 271.17 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 15/100 | Batch 1/1024 | Loss 0.072051
+Epoch 15/100 | Batch 100/1024 | Loss 0.049481
+Epoch 15/100 | Batch 200/1024 | Loss 0.049683
+Epoch 15/100 | Batch 300/1024 | Loss 0.057033
+Epoch 15/100 | Batch 400/1024 | Loss 0.049214
+Epoch 15/100 | Batch 500/1024 | Loss 0.064539
+Epoch 15/100 | Batch 600/1024 | Loss 0.043291
+Epoch 15/100 | Batch 700/1024 | Loss 0.062059
+Epoch 15/100 | Batch 800/1024 | Loss 0.060612
+Epoch 15/100 | Batch 900/1024 | Loss 0.067363
+Epoch 15/100 | Batch 1000/1024 | Loss 0.082548
+
+----------------------------------------------------------------------
+Epoch 15/100 COMPLETE
+Train Loss : 0.060595
+Val Loss   : 0.055220
+Val PSNR   : 23.9402 dB
+Val SSIM   : 0.602230
+Time       : 279.68 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 16/100 | Batch 1/1024 | Loss 0.080182
+Epoch 16/100 | Batch 100/1024 | Loss 0.073461
+Epoch 16/100 | Batch 200/1024 | Loss 0.042943
+Epoch 16/100 | Batch 300/1024 | Loss 0.064793
+Epoch 16/100 | Batch 400/1024 | Loss 0.051245
+Epoch 16/100 | Batch 500/1024 | Loss 0.060082
+Epoch 16/100 | Batch 600/1024 | Loss 0.050233
+Epoch 16/100 | Batch 700/1024 | Loss 0.046786
+Epoch 16/100 | Batch 800/1024 | Loss 0.060059
+Epoch 16/100 | Batch 900/1024 | Loss 0.064210
+Epoch 16/100 | Batch 1000/1024 | Loss 0.071514
+
+----------------------------------------------------------------------
+Epoch 16/100 COMPLETE
+Train Loss : 0.060412
+Val Loss   : 0.055220
+Val PSNR   : 23.9614 dB
+Val SSIM   : 0.598869
+Time       : 400.77 sec
+----------------------------------------------------------------------
+Epochs without improvement: 3/15
+Epoch 17/100 | Batch 1/1024 | Loss 0.060604
+Epoch 17/100 | Batch 100/1024 | Loss 0.065399
+Epoch 17/100 | Batch 200/1024 | Loss 0.059420
+Epoch 17/100 | Batch 300/1024 | Loss 0.051979
+Epoch 17/100 | Batch 400/1024 | Loss 0.073877
+Epoch 17/100 | Batch 500/1024 | Loss 0.071381
+Epoch 17/100 | Batch 600/1024 | Loss 0.068636
+Epoch 17/100 | Batch 700/1024 | Loss 0.053818
+Epoch 17/100 | Batch 800/1024 | Loss 0.064154
+Epoch 17/100 | Batch 900/1024 | Loss 0.065189
+Epoch 17/100 | Batch 1000/1024 | Loss 0.066277
+
+----------------------------------------------------------------------
+Epoch 17/100 COMPLETE
+Train Loss : 0.060251
+Val Loss   : 0.054885
+Val PSNR   : 24.0280 dB
+Val SSIM   : 0.599618
+Time       : 290.22 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 18/100 | Batch 1/1024 | Loss 0.062784
+Epoch 18/100 | Batch 100/1024 | Loss 0.050504
+Epoch 18/100 | Batch 200/1024 | Loss 0.060892
+Epoch 18/100 | Batch 300/1024 | Loss 0.071981
+Epoch 18/100 | Batch 400/1024 | Loss 0.065312
+Epoch 18/100 | Batch 500/1024 | Loss 0.060957
+Epoch 18/100 | Batch 600/1024 | Loss 0.061094
+Epoch 18/100 | Batch 700/1024 | Loss 0.068442
+Epoch 18/100 | Batch 800/1024 | Loss 0.064016
+Epoch 18/100 | Batch 900/1024 | Loss 0.047608
+Epoch 18/100 | Batch 1000/1024 | Loss 0.051184
+
+----------------------------------------------------------------------
+Epoch 18/100 COMPLETE
+Train Loss : 0.060069
+Val Loss   : 0.054660
+Val PSNR   : 24.0684 dB
+Val SSIM   : 0.600156
+Time       : 295.12 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 19/100 | Batch 1/1024 | Loss 0.059595
+Epoch 19/100 | Batch 100/1024 | Loss 0.059978
+Epoch 19/100 | Batch 200/1024 | Loss 0.063635
+Epoch 19/100 | Batch 300/1024 | Loss 0.049384
+Epoch 19/100 | Batch 400/1024 | Loss 0.056736
+Epoch 19/100 | Batch 500/1024 | Loss 0.056401
+Epoch 19/100 | Batch 600/1024 | Loss 0.066850
+Epoch 19/100 | Batch 700/1024 | Loss 0.059392
+Epoch 19/100 | Batch 800/1024 | Loss 0.072199
+Epoch 19/100 | Batch 900/1024 | Loss 0.058079
+Epoch 19/100 | Batch 1000/1024 | Loss 0.049776
+
+----------------------------------------------------------------------
+Epoch 19/100 COMPLETE
+Train Loss : 0.059955
+Val Loss   : 0.054611
+Val PSNR   : 24.0405 dB
+Val SSIM   : 0.599989
+Time       : 315.15 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 20/100 | Batch 1/1024 | Loss 0.069133
+Epoch 20/100 | Batch 100/1024 | Loss 0.049546
+Epoch 20/100 | Batch 200/1024 | Loss 0.058593
+Epoch 20/100 | Batch 300/1024 | Loss 0.052956
+Epoch 20/100 | Batch 400/1024 | Loss 0.053915
+Epoch 20/100 | Batch 500/1024 | Loss 0.047227
+Epoch 20/100 | Batch 600/1024 | Loss 0.065042
+Epoch 20/100 | Batch 700/1024 | Loss 0.061548
+Epoch 20/100 | Batch 800/1024 | Loss 0.053575
+Epoch 20/100 | Batch 900/1024 | Loss 0.053824
+Epoch 20/100 | Batch 1000/1024 | Loss 0.055488
+
+----------------------------------------------------------------------
+Epoch 20/100 COMPLETE
+Train Loss : 0.059846
+Val Loss   : 0.054498
+Val PSNR   : 24.0726 dB
+Val SSIM   : 0.603213
+Time       : 385.34 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 21/100 | Batch 1/1024 | Loss 0.067700
+Epoch 21/100 | Batch 100/1024 | Loss 0.063068
+Epoch 21/100 | Batch 200/1024 | Loss 0.060330
+Epoch 21/100 | Batch 300/1024 | Loss 0.056739
+Epoch 21/100 | Batch 400/1024 | Loss 0.063270
+Epoch 21/100 | Batch 500/1024 | Loss 0.057770
+Epoch 21/100 | Batch 600/1024 | Loss 0.047430
+Epoch 21/100 | Batch 700/1024 | Loss 0.068399
+Epoch 21/100 | Batch 800/1024 | Loss 0.058761
+Epoch 21/100 | Batch 900/1024 | Loss 0.062224
+Epoch 21/100 | Batch 1000/1024 | Loss 0.058059
+
+----------------------------------------------------------------------
+Epoch 21/100 COMPLETE
+Train Loss : 0.059836
+Val Loss   : 0.055333
+Val PSNR   : 23.9038 dB
+Val SSIM   : 0.601879
+Time       : 318.51 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 22/100 | Batch 1/1024 | Loss 0.061314
+Epoch 22/100 | Batch 100/1024 | Loss 0.058289
+Epoch 22/100 | Batch 200/1024 | Loss 0.063666
+Epoch 22/100 | Batch 300/1024 | Loss 0.050788
+Epoch 22/100 | Batch 400/1024 | Loss 0.064040
+Epoch 22/100 | Batch 500/1024 | Loss 0.059364
+Epoch 22/100 | Batch 600/1024 | Loss 0.055279
+Epoch 22/100 | Batch 700/1024 | Loss 0.064771
+Epoch 22/100 | Batch 800/1024 | Loss 0.072638
+Epoch 22/100 | Batch 900/1024 | Loss 0.060744
+Epoch 22/100 | Batch 1000/1024 | Loss 0.054929
+
+----------------------------------------------------------------------
+Epoch 22/100 COMPLETE
+Train Loss : 0.059639
+Val Loss   : 0.055293
+Val PSNR   : 23.9617 dB
+Val SSIM   : 0.603478
+Time       : 331.06 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 23/100 | Batch 1/1024 | Loss 0.058670
+Epoch 23/100 | Batch 100/1024 | Loss 0.067158
+Epoch 23/100 | Batch 200/1024 | Loss 0.043306
+Epoch 23/100 | Batch 300/1024 | Loss 0.065999
+Epoch 23/100 | Batch 400/1024 | Loss 0.061881
+Epoch 23/100 | Batch 500/1024 | Loss 0.060212
+Epoch 23/100 | Batch 600/1024 | Loss 0.052939
+Epoch 23/100 | Batch 700/1024 | Loss 0.047901
+Epoch 23/100 | Batch 800/1024 | Loss 0.052400
+Epoch 23/100 | Batch 900/1024 | Loss 0.072676
+Epoch 23/100 | Batch 1000/1024 | Loss 0.072051
+
+----------------------------------------------------------------------
+Epoch 23/100 COMPLETE
+Train Loss : 0.059626
+Val Loss   : 0.054281
+Val PSNR   : 24.0852 dB
+Val SSIM   : 0.605695
+Time       : 328.48 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 24/100 | Batch 1/1024 | Loss 0.071041
+Epoch 24/100 | Batch 100/1024 | Loss 0.061615
+Epoch 24/100 | Batch 200/1024 | Loss 0.064399
+Epoch 24/100 | Batch 300/1024 | Loss 0.049620
+Epoch 24/100 | Batch 400/1024 | Loss 0.050957
+Epoch 24/100 | Batch 500/1024 | Loss 0.057724
+Epoch 24/100 | Batch 600/1024 | Loss 0.064954
+Epoch 24/100 | Batch 700/1024 | Loss 0.073249
+Epoch 24/100 | Batch 800/1024 | Loss 0.070620
+Epoch 24/100 | Batch 900/1024 | Loss 0.072440
+Epoch 24/100 | Batch 1000/1024 | Loss 0.054594
+
+----------------------------------------------------------------------
+Epoch 24/100 COMPLETE
+Train Loss : 0.059453
+Val Loss   : 0.056104
+Val PSNR   : 23.7781 dB
+Val SSIM   : 0.607350
+Time       : 339.74 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 25/100 | Batch 1/1024 | Loss 0.049111
+Epoch 25/100 | Batch 100/1024 | Loss 0.078808
+Epoch 25/100 | Batch 200/1024 | Loss 0.059076
+Epoch 25/100 | Batch 300/1024 | Loss 0.062050
+Epoch 25/100 | Batch 400/1024 | Loss 0.058994
+Epoch 25/100 | Batch 500/1024 | Loss 0.064646
+Epoch 25/100 | Batch 600/1024 | Loss 0.071411
+Epoch 25/100 | Batch 700/1024 | Loss 0.063630
+Epoch 25/100 | Batch 800/1024 | Loss 0.057645
+Epoch 25/100 | Batch 900/1024 | Loss 0.061772
+Epoch 25/100 | Batch 1000/1024 | Loss 0.059853
+
+----------------------------------------------------------------------
+Epoch 25/100 COMPLETE
+Train Loss : 0.059419
+Val Loss   : 0.054214
+Val PSNR   : 24.1006 dB
+Val SSIM   : 0.605965
+Time       : 6387.99 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 26/100 | Batch 1/1024 | Loss 0.053203
+Epoch 26/100 | Batch 100/1024 | Loss 0.053430
+Epoch 26/100 | Batch 200/1024 | Loss 0.055254
+Epoch 26/100 | Batch 300/1024 | Loss 0.066645
+Epoch 26/100 | Batch 400/1024 | Loss 0.054248
+Epoch 26/100 | Batch 500/1024 | Loss 0.064817
+Epoch 26/100 | Batch 600/1024 | Loss 0.048988
+Epoch 26/100 | Batch 700/1024 | Loss 0.061783
+Epoch 26/100 | Batch 800/1024 | Loss 0.041208
+Epoch 26/100 | Batch 900/1024 | Loss 0.068228
+Epoch 26/100 | Batch 1000/1024 | Loss 0.043743
+
+----------------------------------------------------------------------
+Epoch 26/100 COMPLETE
+Train Loss : 0.059343
+Val Loss   : 0.054498
+Val PSNR   : 24.0539 dB
+Val SSIM   : 0.607348
+Time       : 270.50 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 27/100 | Batch 1/1024 | Loss 0.059869
+Epoch 27/100 | Batch 100/1024 | Loss 0.069176
+Epoch 27/100 | Batch 200/1024 | Loss 0.065780
+Epoch 27/100 | Batch 300/1024 | Loss 0.048049
+Epoch 27/100 | Batch 400/1024 | Loss 0.062165
+Epoch 27/100 | Batch 500/1024 | Loss 0.066667
+Epoch 27/100 | Batch 600/1024 | Loss 0.069865
+Epoch 27/100 | Batch 700/1024 | Loss 0.043906
+Epoch 27/100 | Batch 800/1024 | Loss 0.057363
+Epoch 27/100 | Batch 900/1024 | Loss 0.060930
+Epoch 27/100 | Batch 1000/1024 | Loss 0.046213
+
+----------------------------------------------------------------------
+Epoch 27/100 COMPLETE
+Train Loss : 0.059215
+Val Loss   : 0.054026
+Val PSNR   : 24.1338 dB
+Val SSIM   : 0.603550
+Time       : 282.43 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 28/100 | Batch 1/1024 | Loss 0.054592
+Epoch 28/100 | Batch 100/1024 | Loss 0.058731
+Epoch 28/100 | Batch 200/1024 | Loss 0.054780
+Epoch 28/100 | Batch 300/1024 | Loss 0.059271
+Epoch 28/100 | Batch 400/1024 | Loss 0.058558
+Epoch 28/100 | Batch 500/1024 | Loss 0.058613
+Epoch 28/100 | Batch 600/1024 | Loss 0.055174
+Epoch 28/100 | Batch 700/1024 | Loss 0.052069
+Epoch 28/100 | Batch 800/1024 | Loss 0.047215
+Epoch 28/100 | Batch 900/1024 | Loss 0.073872
+Epoch 28/100 | Batch 1000/1024 | Loss 0.055287
+
+----------------------------------------------------------------------
+Epoch 28/100 COMPLETE
+Train Loss : 0.059223
+Val Loss   : 0.054058
+Val PSNR   : 24.1599 dB
+Val SSIM   : 0.605799
+Time       : 282.65 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 29/100 | Batch 1/1024 | Loss 0.059403
+Epoch 29/100 | Batch 100/1024 | Loss 0.064608
+Epoch 29/100 | Batch 200/1024 | Loss 0.054960
+Epoch 29/100 | Batch 300/1024 | Loss 0.070835
+Epoch 29/100 | Batch 400/1024 | Loss 0.059569
+Epoch 29/100 | Batch 500/1024 | Loss 0.047675
+Epoch 29/100 | Batch 600/1024 | Loss 0.079797
+Epoch 29/100 | Batch 700/1024 | Loss 0.046948
+Epoch 29/100 | Batch 800/1024 | Loss 0.066938
+Epoch 29/100 | Batch 900/1024 | Loss 0.058532
+Epoch 29/100 | Batch 1000/1024 | Loss 0.061640
+
+----------------------------------------------------------------------
+Epoch 29/100 COMPLETE
+Train Loss : 0.059075
+Val Loss   : 0.053614
+Val PSNR   : 24.1980 dB
+Val SSIM   : 0.604223
+Time       : 283.84 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 30/100 | Batch 1/1024 | Loss 0.064433
+Epoch 30/100 | Batch 100/1024 | Loss 0.067050
+Epoch 30/100 | Batch 200/1024 | Loss 0.043545
+Epoch 30/100 | Batch 300/1024 | Loss 0.058636
+Epoch 30/100 | Batch 400/1024 | Loss 0.056737
+Epoch 30/100 | Batch 500/1024 | Loss 0.063391
+Epoch 30/100 | Batch 600/1024 | Loss 0.047528
+Epoch 30/100 | Batch 700/1024 | Loss 0.058794
+Epoch 30/100 | Batch 800/1024 | Loss 0.064157
+Epoch 30/100 | Batch 900/1024 | Loss 0.049989
+Epoch 30/100 | Batch 1000/1024 | Loss 0.050001
+
+----------------------------------------------------------------------
+Epoch 30/100 COMPLETE
+Train Loss : 0.059042
+Val Loss   : 0.054113
+Val PSNR   : 24.1412 dB
+Val SSIM   : 0.607779
+Time       : 269.99 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 31/100 | Batch 1/1024 | Loss 0.060815
+Epoch 31/100 | Batch 100/1024 | Loss 0.076672
+Epoch 31/100 | Batch 200/1024 | Loss 0.059723
+Epoch 31/100 | Batch 300/1024 | Loss 0.050882
+Epoch 31/100 | Batch 400/1024 | Loss 0.066576
+Epoch 31/100 | Batch 500/1024 | Loss 0.061678
+Epoch 31/100 | Batch 600/1024 | Loss 0.067886
+Epoch 31/100 | Batch 700/1024 | Loss 0.065563
+Epoch 31/100 | Batch 800/1024 | Loss 0.056353
+Epoch 31/100 | Batch 900/1024 | Loss 0.043233
+Epoch 31/100 | Batch 1000/1024 | Loss 0.063711
+
+----------------------------------------------------------------------
+Epoch 31/100 COMPLETE
+Train Loss : 0.058893
+Val Loss   : 0.054690
+Val PSNR   : 23.9876 dB
+Val SSIM   : 0.607931
+Time       : 271.87 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 32/100 | Batch 1/1024 | Loss 0.057048
+Epoch 32/100 | Batch 100/1024 | Loss 0.052705
+Epoch 32/100 | Batch 200/1024 | Loss 0.050243
+Epoch 32/100 | Batch 300/1024 | Loss 0.075435
+Epoch 32/100 | Batch 400/1024 | Loss 0.056061
+Epoch 32/100 | Batch 500/1024 | Loss 0.055569
+Epoch 32/100 | Batch 600/1024 | Loss 0.053069
+Epoch 32/100 | Batch 700/1024 | Loss 0.064026
+Epoch 32/100 | Batch 800/1024 | Loss 0.061244
+Epoch 32/100 | Batch 900/1024 | Loss 0.052656
+Epoch 32/100 | Batch 1000/1024 | Loss 0.068498
+
+----------------------------------------------------------------------
+Epoch 32/100 COMPLETE
+Train Loss : 0.058896
+Val Loss   : 0.053832
+Val PSNR   : 24.1699 dB
+Val SSIM   : 0.608373
+Time       : 269.08 sec
+----------------------------------------------------------------------
+Epochs without improvement: 3/15
+Epoch 33/100 | Batch 1/1024 | Loss 0.053443
+Epoch 33/100 | Batch 100/1024 | Loss 0.058580
+Epoch 33/100 | Batch 200/1024 | Loss 0.059392
+Epoch 33/100 | Batch 300/1024 | Loss 0.068243
+Epoch 33/100 | Batch 400/1024 | Loss 0.070947
+Epoch 33/100 | Batch 500/1024 | Loss 0.069459
+Epoch 33/100 | Batch 600/1024 | Loss 0.049560
+Epoch 33/100 | Batch 700/1024 | Loss 0.048503
+Epoch 33/100 | Batch 800/1024 | Loss 0.070092
+Epoch 33/100 | Batch 900/1024 | Loss 0.059321
+Epoch 33/100 | Batch 1000/1024 | Loss 0.048598
+
+----------------------------------------------------------------------
+Epoch 33/100 COMPLETE
+Train Loss : 0.058783
+Val Loss   : 0.054163
+Val PSNR   : 24.1219 dB
+Val SSIM   : 0.608776
+Time       : 267.39 sec
+----------------------------------------------------------------------
+Epochs without improvement: 4/15
+Epoch 34/100 | Batch 1/1024 | Loss 0.049677
+Epoch 34/100 | Batch 100/1024 | Loss 0.062038
+Epoch 34/100 | Batch 200/1024 | Loss 0.058109
+Epoch 34/100 | Batch 300/1024 | Loss 0.054309
+Epoch 34/100 | Batch 400/1024 | Loss 0.060833
+Epoch 34/100 | Batch 500/1024 | Loss 0.061477
+Epoch 34/100 | Batch 600/1024 | Loss 0.071199
+Epoch 34/100 | Batch 700/1024 | Loss 0.061469
+Epoch 34/100 | Batch 800/1024 | Loss 0.054496
+Epoch 34/100 | Batch 900/1024 | Loss 0.061524
+Epoch 34/100 | Batch 1000/1024 | Loss 0.066497
+
+----------------------------------------------------------------------
+Epoch 34/100 COMPLETE
+Train Loss : 0.058721
+Val Loss   : 0.053986
+Val PSNR   : 24.1591 dB
+Val SSIM   : 0.607560
+Time       : 300.04 sec
+----------------------------------------------------------------------
+Epochs without improvement: 5/15
+Epoch 35/100 | Batch 1/1024 | Loss 0.053328
+Epoch 35/100 | Batch 100/1024 | Loss 0.053146
+Epoch 35/100 | Batch 200/1024 | Loss 0.058078
+Epoch 35/100 | Batch 300/1024 | Loss 0.061596
+Epoch 35/100 | Batch 400/1024 | Loss 0.055216
+Epoch 35/100 | Batch 500/1024 | Loss 0.061070
+Epoch 35/100 | Batch 600/1024 | Loss 0.048263
+Epoch 35/100 | Batch 700/1024 | Loss 0.066248
+Epoch 35/100 | Batch 800/1024 | Loss 0.047674
+Epoch 35/100 | Batch 900/1024 | Loss 0.063621
+Epoch 35/100 | Batch 1000/1024 | Loss 0.072955
+
+----------------------------------------------------------------------
+Epoch 35/100 COMPLETE
+Train Loss : 0.058704
+Val Loss   : 0.053724
+Val PSNR   : 24.2128 dB
+Val SSIM   : 0.607128
+Time       : 667.34 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 36/100 | Batch 1/1024 | Loss 0.063922
+Epoch 36/100 | Batch 100/1024 | Loss 0.047620
+Epoch 36/100 | Batch 200/1024 | Loss 0.062108
+Epoch 36/100 | Batch 300/1024 | Loss 0.062537
+Epoch 36/100 | Batch 400/1024 | Loss 0.055492
+Epoch 36/100 | Batch 500/1024 | Loss 0.062252
+Epoch 36/100 | Batch 600/1024 | Loss 0.063289
+Epoch 36/100 | Batch 700/1024 | Loss 0.050483
+Epoch 36/100 | Batch 800/1024 | Loss 0.055882
+Epoch 36/100 | Batch 900/1024 | Loss 0.054641
+Epoch 36/100 | Batch 1000/1024 | Loss 0.048353
+
+----------------------------------------------------------------------
+Epoch 36/100 COMPLETE
+Train Loss : 0.058614
+Val Loss   : 0.053805
+Val PSNR   : 24.2112 dB
+Val SSIM   : 0.606918
+Time       : 201.54 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 37/100 | Batch 1/1024 | Loss 0.052068
+Epoch 37/100 | Batch 100/1024 | Loss 0.050236
+Epoch 37/100 | Batch 200/1024 | Loss 0.057157
+Epoch 37/100 | Batch 300/1024 | Loss 0.042657
+Epoch 37/100 | Batch 400/1024 | Loss 0.061280
+Epoch 37/100 | Batch 500/1024 | Loss 0.054922
+Epoch 37/100 | Batch 600/1024 | Loss 0.048642
+Epoch 37/100 | Batch 700/1024 | Loss 0.051261
+Epoch 37/100 | Batch 800/1024 | Loss 0.063734
+Epoch 37/100 | Batch 900/1024 | Loss 0.047384
+Epoch 37/100 | Batch 1000/1024 | Loss 0.044181
+
+----------------------------------------------------------------------
+Epoch 37/100 COMPLETE
+Train Loss : 0.058636
+Val Loss   : 0.053582
+Val PSNR   : 24.2203 dB
+Val SSIM   : 0.606582
+Time       : 198.01 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 38/100 | Batch 1/1024 | Loss 0.041583
+Epoch 38/100 | Batch 100/1024 | Loss 0.066776
+Epoch 38/100 | Batch 200/1024 | Loss 0.052259
+Epoch 38/100 | Batch 300/1024 | Loss 0.071273
+Epoch 38/100 | Batch 400/1024 | Loss 0.064463
+Epoch 38/100 | Batch 500/1024 | Loss 0.058429
+Epoch 38/100 | Batch 600/1024 | Loss 0.058823
+Epoch 38/100 | Batch 700/1024 | Loss 0.052052
+Epoch 38/100 | Batch 800/1024 | Loss 0.062026
+Epoch 38/100 | Batch 900/1024 | Loss 0.050919
+Epoch 38/100 | Batch 1000/1024 | Loss 0.053237
+
+----------------------------------------------------------------------
+Epoch 38/100 COMPLETE
+Train Loss : 0.058558
+Val Loss   : 0.054544
+Val PSNR   : 24.0675 dB
+Val SSIM   : 0.607354
+Time       : 212.85 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 39/100 | Batch 1/1024 | Loss 0.074870
+Epoch 39/100 | Batch 100/1024 | Loss 0.056355
+Epoch 39/100 | Batch 200/1024 | Loss 0.049620
+Epoch 39/100 | Batch 300/1024 | Loss 0.054775
+Epoch 39/100 | Batch 400/1024 | Loss 0.055503
+Epoch 39/100 | Batch 500/1024 | Loss 0.063126
+Epoch 39/100 | Batch 600/1024 | Loss 0.052495
+Epoch 39/100 | Batch 700/1024 | Loss 0.062485
+Epoch 39/100 | Batch 800/1024 | Loss 0.061611
+Epoch 39/100 | Batch 900/1024 | Loss 0.046869
+Epoch 39/100 | Batch 1000/1024 | Loss 0.056376
+
+----------------------------------------------------------------------
+Epoch 39/100 COMPLETE
+Train Loss : 0.058469
+Val Loss   : 0.053891
+Val PSNR   : 24.1978 dB
+Val SSIM   : 0.604406
+Time       : 223.59 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 40/100 | Batch 1/1024 | Loss 0.066294
+Epoch 40/100 | Batch 100/1024 | Loss 0.063248
+Epoch 40/100 | Batch 200/1024 | Loss 0.063809
+Epoch 40/100 | Batch 300/1024 | Loss 0.072194
+Epoch 40/100 | Batch 400/1024 | Loss 0.060691
+Epoch 40/100 | Batch 500/1024 | Loss 0.063530
+Epoch 40/100 | Batch 600/1024 | Loss 0.054435
+Epoch 40/100 | Batch 700/1024 | Loss 0.060243
+Epoch 40/100 | Batch 800/1024 | Loss 0.050211
+Epoch 40/100 | Batch 900/1024 | Loss 0.062999
+Epoch 40/100 | Batch 1000/1024 | Loss 0.057496
+
+----------------------------------------------------------------------
+Epoch 40/100 COMPLETE
+Train Loss : 0.058408
+Val Loss   : 0.054016
+Val PSNR   : 24.1688 dB
+Val SSIM   : 0.603766
+Time       : 195.46 sec
+----------------------------------------------------------------------
+Epochs without improvement: 3/15
+Epoch 41/100 | Batch 1/1024 | Loss 0.058238
+Epoch 41/100 | Batch 100/1024 | Loss 0.058042
+Epoch 41/100 | Batch 200/1024 | Loss 0.058990
+Epoch 41/100 | Batch 300/1024 | Loss 0.069624
+Epoch 41/100 | Batch 400/1024 | Loss 0.055791
+Epoch 41/100 | Batch 500/1024 | Loss 0.055669
+Epoch 41/100 | Batch 600/1024 | Loss 0.055157
+Epoch 41/100 | Batch 700/1024 | Loss 0.040446
+Epoch 41/100 | Batch 800/1024 | Loss 0.055006
+Epoch 41/100 | Batch 900/1024 | Loss 0.046755
+Epoch 41/100 | Batch 1000/1024 | Loss 0.056601
+
+----------------------------------------------------------------------
+Epoch 41/100 COMPLETE
+Train Loss : 0.058391
+Val Loss   : 0.053348
+Val PSNR   : 24.2298 dB
+Val SSIM   : 0.608920
+Time       : 197.41 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 42/100 | Batch 1/1024 | Loss 0.057845
+Epoch 42/100 | Batch 100/1024 | Loss 0.059155
+Epoch 42/100 | Batch 200/1024 | Loss 0.067162
+Epoch 42/100 | Batch 300/1024 | Loss 0.062829
+Epoch 42/100 | Batch 400/1024 | Loss 0.049257
+Epoch 42/100 | Batch 500/1024 | Loss 0.060494
+Epoch 42/100 | Batch 600/1024 | Loss 0.054316
+Epoch 42/100 | Batch 700/1024 | Loss 0.049116
+Epoch 42/100 | Batch 800/1024 | Loss 0.077058
+Epoch 42/100 | Batch 900/1024 | Loss 0.055683
+Epoch 42/100 | Batch 1000/1024 | Loss 0.056180
+
+----------------------------------------------------------------------
+Epoch 42/100 COMPLETE
+Train Loss : 0.058342
+Val Loss   : 0.053510
+Val PSNR   : 24.2529 dB
+Val SSIM   : 0.609395
+Time       : 195.49 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 43/100 | Batch 1/1024 | Loss 0.058427
+Epoch 43/100 | Batch 100/1024 | Loss 0.058633
+Epoch 43/100 | Batch 200/1024 | Loss 0.064353
+Epoch 43/100 | Batch 300/1024 | Loss 0.059587
+Epoch 43/100 | Batch 400/1024 | Loss 0.049957
+Epoch 43/100 | Batch 500/1024 | Loss 0.061452
+Epoch 43/100 | Batch 600/1024 | Loss 0.068072
+Epoch 43/100 | Batch 700/1024 | Loss 0.053827
+Epoch 43/100 | Batch 800/1024 | Loss 0.066847
+Epoch 43/100 | Batch 900/1024 | Loss 0.061153
+Epoch 43/100 | Batch 1000/1024 | Loss 0.061733
+
+----------------------------------------------------------------------
+Epoch 43/100 COMPLETE
+Train Loss : 0.058298
+Val Loss   : 0.054688
+Val PSNR   : 24.0214 dB
+Val SSIM   : 0.607851
+Time       : 195.17 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 44/100 | Batch 1/1024 | Loss 0.046449
+Epoch 44/100 | Batch 100/1024 | Loss 0.050981
+Epoch 44/100 | Batch 200/1024 | Loss 0.057403
+Epoch 44/100 | Batch 300/1024 | Loss 0.068685
+Epoch 44/100 | Batch 400/1024 | Loss 0.056950
+Epoch 44/100 | Batch 500/1024 | Loss 0.054501
+Epoch 44/100 | Batch 600/1024 | Loss 0.062534
+Epoch 44/100 | Batch 700/1024 | Loss 0.060890
+Epoch 44/100 | Batch 800/1024 | Loss 0.063591
+Epoch 44/100 | Batch 900/1024 | Loss 0.066543
+Epoch 44/100 | Batch 1000/1024 | Loss 0.071555
+
+----------------------------------------------------------------------
+Epoch 44/100 COMPLETE
+Train Loss : 0.058237
+Val Loss   : 0.053963
+Val PSNR   : 24.2015 dB
+Val SSIM   : 0.608228
+Time       : 196.40 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 45/100 | Batch 1/1024 | Loss 0.066627
+Epoch 45/100 | Batch 100/1024 | Loss 0.075206
+Epoch 45/100 | Batch 200/1024 | Loss 0.054341
+Epoch 45/100 | Batch 300/1024 | Loss 0.060655
+Epoch 45/100 | Batch 400/1024 | Loss 0.061603
+Epoch 45/100 | Batch 500/1024 | Loss 0.064687
+Epoch 45/100 | Batch 600/1024 | Loss 0.060251
+Epoch 45/100 | Batch 700/1024 | Loss 0.056356
+Epoch 45/100 | Batch 800/1024 | Loss 0.081585
+Epoch 45/100 | Batch 900/1024 | Loss 0.060276
+Epoch 45/100 | Batch 1000/1024 | Loss 0.054138
+
+----------------------------------------------------------------------
+Epoch 45/100 COMPLETE
+Train Loss : 0.058183
+Val Loss   : 0.053401
+Val PSNR   : 24.2558 dB
+Val SSIM   : 0.609129
+Time       : 195.50 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 46/100 | Batch 1/1024 | Loss 0.059791
+Epoch 46/100 | Batch 100/1024 | Loss 0.067675
+Epoch 46/100 | Batch 200/1024 | Loss 0.061960
+Epoch 46/100 | Batch 300/1024 | Loss 0.054041
+Epoch 46/100 | Batch 400/1024 | Loss 0.041796
+Epoch 46/100 | Batch 500/1024 | Loss 0.051330
+Epoch 46/100 | Batch 600/1024 | Loss 0.052648
+Epoch 46/100 | Batch 700/1024 | Loss 0.059951
+Epoch 46/100 | Batch 800/1024 | Loss 0.056072
+Epoch 46/100 | Batch 900/1024 | Loss 0.045415
+Epoch 46/100 | Batch 1000/1024 | Loss 0.070335
+
+----------------------------------------------------------------------
+Epoch 46/100 COMPLETE
+Train Loss : 0.058157
+Val Loss   : 0.053244
+Val PSNR   : 24.2544 dB
+Val SSIM   : 0.610426
+Time       : 199.39 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 47/100 | Batch 1/1024 | Loss 0.054062
+Epoch 47/100 | Batch 100/1024 | Loss 0.047365
+Epoch 47/100 | Batch 200/1024 | Loss 0.043662
+Epoch 47/100 | Batch 300/1024 | Loss 0.050707
+Epoch 47/100 | Batch 400/1024 | Loss 0.049300
+Epoch 47/100 | Batch 500/1024 | Loss 0.048578
+Epoch 47/100 | Batch 600/1024 | Loss 0.056010
+Epoch 47/100 | Batch 700/1024 | Loss 0.054092
+Epoch 47/100 | Batch 800/1024 | Loss 0.066321
+Epoch 47/100 | Batch 900/1024 | Loss 0.062223
+Epoch 47/100 | Batch 1000/1024 | Loss 0.070037
+
+----------------------------------------------------------------------
+Epoch 47/100 COMPLETE
+Train Loss : 0.058107
+Val Loss   : 0.053569
+Val PSNR   : 24.1785 dB
+Val SSIM   : 0.613128
+Time       : 197.01 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 48/100 | Batch 1/1024 | Loss 0.050077
+Epoch 48/100 | Batch 100/1024 | Loss 0.065792
+Epoch 48/100 | Batch 200/1024 | Loss 0.066612
+Epoch 48/100 | Batch 300/1024 | Loss 0.053475
+Epoch 48/100 | Batch 400/1024 | Loss 0.056398
+Epoch 48/100 | Batch 500/1024 | Loss 0.056668
+Epoch 48/100 | Batch 600/1024 | Loss 0.067362
+Epoch 48/100 | Batch 700/1024 | Loss 0.062212
+Epoch 48/100 | Batch 800/1024 | Loss 0.079344
+Epoch 48/100 | Batch 900/1024 | Loss 0.056227
+Epoch 48/100 | Batch 1000/1024 | Loss 0.048582
+
+----------------------------------------------------------------------
+Epoch 48/100 COMPLETE
+Train Loss : 0.058082
+Val Loss   : 0.054054
+Val PSNR   : 24.1607 dB
+Val SSIM   : 0.609651
+Time       : 198.76 sec
+----------------------------------------------------------------------
+Epochs without improvement: 3/15
+Epoch 49/100 | Batch 1/1024 | Loss 0.063264
+Epoch 49/100 | Batch 100/1024 | Loss 0.049497
+Epoch 49/100 | Batch 200/1024 | Loss 0.053300
+Epoch 49/100 | Batch 300/1024 | Loss 0.075218
+Epoch 49/100 | Batch 400/1024 | Loss 0.062191
+Epoch 49/100 | Batch 500/1024 | Loss 0.071266
+Epoch 49/100 | Batch 600/1024 | Loss 0.059207
+Epoch 49/100 | Batch 700/1024 | Loss 0.052034
+Epoch 49/100 | Batch 800/1024 | Loss 0.046438
+Epoch 49/100 | Batch 900/1024 | Loss 0.073676
+Epoch 49/100 | Batch 1000/1024 | Loss 0.064895
+
+----------------------------------------------------------------------
+Epoch 49/100 COMPLETE
+Train Loss : 0.058018
+Val Loss   : 0.053901
+Val PSNR   : 24.1224 dB
+Val SSIM   : 0.613759
+Time       : 197.05 sec
+----------------------------------------------------------------------
+Epochs without improvement: 4/15
+Epoch 50/100 | Batch 1/1024 | Loss 0.065596
+Epoch 50/100 | Batch 100/1024 | Loss 0.050102
+Epoch 50/100 | Batch 200/1024 | Loss 0.055679
+Epoch 50/100 | Batch 300/1024 | Loss 0.050527
+Epoch 50/100 | Batch 400/1024 | Loss 0.060519
+Epoch 50/100 | Batch 500/1024 | Loss 0.057986
+Epoch 50/100 | Batch 600/1024 | Loss 0.047683
+Epoch 50/100 | Batch 700/1024 | Loss 0.050856
+Epoch 50/100 | Batch 800/1024 | Loss 0.058606
+Epoch 50/100 | Batch 900/1024 | Loss 0.049141
+Epoch 50/100 | Batch 1000/1024 | Loss 0.058391
+
+----------------------------------------------------------------------
+Epoch 50/100 COMPLETE
+Train Loss : 0.058019
+Val Loss   : 0.053591
+Val PSNR   : 24.2331 dB
+Val SSIM   : 0.611392
+Time       : 203.94 sec
+----------------------------------------------------------------------
+Epochs without improvement: 5/15
+Epoch 51/100 | Batch 1/1024 | Loss 0.052190
+Epoch 51/100 | Batch 100/1024 | Loss 0.065482
+Epoch 51/100 | Batch 200/1024 | Loss 0.066281
+Epoch 51/100 | Batch 300/1024 | Loss 0.052143
+Epoch 51/100 | Batch 400/1024 | Loss 0.042597
+Epoch 51/100 | Batch 500/1024 | Loss 0.059841
+Epoch 51/100 | Batch 600/1024 | Loss 0.061084
+Epoch 51/100 | Batch 700/1024 | Loss 0.055908
+Epoch 51/100 | Batch 800/1024 | Loss 0.056566
+Epoch 51/100 | Batch 900/1024 | Loss 0.046099
+Epoch 51/100 | Batch 1000/1024 | Loss 0.063587
+
+----------------------------------------------------------------------
+Epoch 51/100 COMPLETE
+Train Loss : 0.057923
+Val Loss   : 0.053404
+Val PSNR   : 24.2155 dB
+Val SSIM   : 0.612286
+Time       : 873.67 sec
+----------------------------------------------------------------------
+Epochs without improvement: 6/15
+Epoch 52/100 | Batch 1/1024 | Loss 0.059737
+Epoch 52/100 | Batch 100/1024 | Loss 0.055860
+Epoch 52/100 | Batch 200/1024 | Loss 0.048377
+Epoch 52/100 | Batch 300/1024 | Loss 0.063444
+Epoch 52/100 | Batch 400/1024 | Loss 0.066935
+Epoch 52/100 | Batch 500/1024 | Loss 0.047474
+Epoch 52/100 | Batch 600/1024 | Loss 0.058579
+Epoch 52/100 | Batch 700/1024 | Loss 0.042085
+Epoch 52/100 | Batch 800/1024 | Loss 0.051954
+Epoch 52/100 | Batch 900/1024 | Loss 0.067295
+Epoch 52/100 | Batch 1000/1024 | Loss 0.077100
+
+----------------------------------------------------------------------
+Epoch 52/100 COMPLETE
+Train Loss : 0.057913
+Val Loss   : 0.053371
+Val PSNR   : 24.2557 dB
+Val SSIM   : 0.611705
+Time       : 287.92 sec
+----------------------------------------------------------------------
+Epochs without improvement: 7/15
+Epoch 53/100 | Batch 1/1024 | Loss 0.061806
+Epoch 53/100 | Batch 100/1024 | Loss 0.052354
+Epoch 53/100 | Batch 200/1024 | Loss 0.059443
+Epoch 53/100 | Batch 300/1024 | Loss 0.072687
+Epoch 53/100 | Batch 400/1024 | Loss 0.063043
+Epoch 53/100 | Batch 500/1024 | Loss 0.051316
+Epoch 53/100 | Batch 600/1024 | Loss 0.057876
+Epoch 53/100 | Batch 700/1024 | Loss 0.061467
+Epoch 53/100 | Batch 800/1024 | Loss 0.073726
+Epoch 53/100 | Batch 900/1024 | Loss 0.081381
+Epoch 53/100 | Batch 1000/1024 | Loss 0.063421
+
+----------------------------------------------------------------------
+Epoch 53/100 COMPLETE
+Train Loss : 0.057946
+Val Loss   : 0.053881
+Val PSNR   : 24.1626 dB
+Val SSIM   : 0.602738
+Time       : 375.30 sec
+----------------------------------------------------------------------
+Epochs without improvement: 8/15
+Epoch 54/100 | Batch 1/1024 | Loss 0.051011
+Epoch 54/100 | Batch 100/1024 | Loss 0.064946
+Epoch 54/100 | Batch 200/1024 | Loss 0.055198
+Epoch 54/100 | Batch 300/1024 | Loss 0.062552
+Epoch 54/100 | Batch 400/1024 | Loss 0.059574
+Epoch 54/100 | Batch 500/1024 | Loss 0.058248
+Epoch 54/100 | Batch 600/1024 | Loss 0.056020
+Epoch 54/100 | Batch 700/1024 | Loss 0.059802
+Epoch 54/100 | Batch 800/1024 | Loss 0.061192
+Epoch 54/100 | Batch 900/1024 | Loss 0.055992
+Epoch 54/100 | Batch 1000/1024 | Loss 0.060817
+
+----------------------------------------------------------------------
+Epoch 54/100 COMPLETE
+Train Loss : 0.057900
+Val Loss   : 0.053532
+Val PSNR   : 24.1825 dB
+Val SSIM   : 0.607435
+Time       : 309.64 sec
+----------------------------------------------------------------------
+Epochs without improvement: 9/15
+Epoch 55/100 | Batch 1/1024 | Loss 0.051664
+Epoch 55/100 | Batch 100/1024 | Loss 0.052255
+Epoch 55/100 | Batch 200/1024 | Loss 0.065823
+Epoch 55/100 | Batch 300/1024 | Loss 0.050867
+Epoch 55/100 | Batch 400/1024 | Loss 0.073037
+Epoch 55/100 | Batch 500/1024 | Loss 0.039940
+Epoch 55/100 | Batch 600/1024 | Loss 0.071757
+Epoch 55/100 | Batch 700/1024 | Loss 0.069401
+Epoch 55/100 | Batch 800/1024 | Loss 0.058359
+Epoch 55/100 | Batch 900/1024 | Loss 0.056274
+Epoch 55/100 | Batch 1000/1024 | Loss 0.054099
+
+----------------------------------------------------------------------
+Epoch 55/100 COMPLETE
+Train Loss : 0.057825
+Val Loss   : 0.053786
+Val PSNR   : 24.2244 dB
+Val SSIM   : 0.607346
+Time       : 277.59 sec
+----------------------------------------------------------------------
+Epochs without improvement: 10/15
+Epoch 56/100 | Batch 1/1024 | Loss 0.060358
+Epoch 56/100 | Batch 100/1024 | Loss 0.059011
+Epoch 56/100 | Batch 200/1024 | Loss 0.043209
+Epoch 56/100 | Batch 300/1024 | Loss 0.066607
+Epoch 56/100 | Batch 400/1024 | Loss 0.056980
+Epoch 56/100 | Batch 500/1024 | Loss 0.051819
+Epoch 56/100 | Batch 600/1024 | Loss 0.053659
+Epoch 56/100 | Batch 700/1024 | Loss 0.040293
+Epoch 56/100 | Batch 800/1024 | Loss 0.050285
+Epoch 56/100 | Batch 900/1024 | Loss 0.054862
+Epoch 56/100 | Batch 1000/1024 | Loss 0.077312
+
+----------------------------------------------------------------------
+Epoch 56/100 COMPLETE
+Train Loss : 0.057762
+Val Loss   : 0.053529
+Val PSNR   : 24.1990 dB
+Val SSIM   : 0.613201
+Time       : 266.22 sec
+----------------------------------------------------------------------
+Epochs without improvement: 11/15
+Epoch 57/100 | Batch 1/1024 | Loss 0.058893
+Epoch 57/100 | Batch 100/1024 | Loss 0.060916
+Epoch 57/100 | Batch 200/1024 | Loss 0.056763
+Epoch 57/100 | Batch 300/1024 | Loss 0.056825
+Epoch 57/100 | Batch 400/1024 | Loss 0.060553
+Epoch 57/100 | Batch 500/1024 | Loss 0.051648
+Epoch 57/100 | Batch 600/1024 | Loss 0.053604
+Epoch 57/100 | Batch 700/1024 | Loss 0.076388
+Epoch 57/100 | Batch 800/1024 | Loss 0.046579
+Epoch 57/100 | Batch 900/1024 | Loss 0.056632
+Epoch 57/100 | Batch 1000/1024 | Loss 0.065149
+
+----------------------------------------------------------------------
+Epoch 57/100 COMPLETE
+Train Loss : 0.057749
+Val Loss   : 0.053240
+Val PSNR   : 24.2714 dB
+Val SSIM   : 0.609479
+Time       : 258.87 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 58/100 | Batch 1/1024 | Loss 0.059327
+Epoch 58/100 | Batch 100/1024 | Loss 0.065236
+Epoch 58/100 | Batch 200/1024 | Loss 0.047411
+Epoch 58/100 | Batch 300/1024 | Loss 0.047458
+Epoch 58/100 | Batch 400/1024 | Loss 0.051298
+Epoch 58/100 | Batch 500/1024 | Loss 0.044620
+Epoch 58/100 | Batch 600/1024 | Loss 0.054664
+Epoch 58/100 | Batch 700/1024 | Loss 0.053854
+Epoch 58/100 | Batch 800/1024 | Loss 0.050662
+Epoch 58/100 | Batch 900/1024 | Loss 0.050226
+Epoch 58/100 | Batch 1000/1024 | Loss 0.056787
+
+----------------------------------------------------------------------
+Epoch 58/100 COMPLETE
+Train Loss : 0.057739
+Val Loss   : 0.053310
+Val PSNR   : 24.2261 dB
+Val SSIM   : 0.610730
+Time       : 261.98 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 59/100 | Batch 1/1024 | Loss 0.063777
+Epoch 59/100 | Batch 100/1024 | Loss 0.073328
+Epoch 59/100 | Batch 200/1024 | Loss 0.055169
+Epoch 59/100 | Batch 300/1024 | Loss 0.068340
+Epoch 59/100 | Batch 400/1024 | Loss 0.067410
+Epoch 59/100 | Batch 500/1024 | Loss 0.065695
+Epoch 59/100 | Batch 600/1024 | Loss 0.054905
+Epoch 59/100 | Batch 700/1024 | Loss 0.064404
+Epoch 59/100 | Batch 800/1024 | Loss 0.054789
+Epoch 59/100 | Batch 900/1024 | Loss 0.055749
+Epoch 59/100 | Batch 1000/1024 | Loss 0.067371
+
+----------------------------------------------------------------------
+Epoch 59/100 COMPLETE
+Train Loss : 0.057685
+Val Loss   : 0.053687
+Val PSNR   : 24.2371 dB
+Val SSIM   : 0.610923
+Time       : 278.96 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 60/100 | Batch 1/1024 | Loss 0.065199
+Epoch 60/100 | Batch 100/1024 | Loss 0.055938
+Epoch 60/100 | Batch 200/1024 | Loss 0.053004
+Epoch 60/100 | Batch 300/1024 | Loss 0.046422
+Epoch 60/100 | Batch 400/1024 | Loss 0.057589
+Epoch 60/100 | Batch 500/1024 | Loss 0.066381
+Epoch 60/100 | Batch 600/1024 | Loss 0.045526
+Epoch 60/100 | Batch 700/1024 | Loss 0.066316
+Epoch 60/100 | Batch 800/1024 | Loss 0.055612
+Epoch 60/100 | Batch 900/1024 | Loss 0.054194
+Epoch 60/100 | Batch 1000/1024 | Loss 0.053338
+
+----------------------------------------------------------------------
+Epoch 60/100 COMPLETE
+Train Loss : 0.057671
+Val Loss   : 0.053400
+Val PSNR   : 24.2396 dB
+Val SSIM   : 0.613420
+Time       : 288.73 sec
+----------------------------------------------------------------------
+Epochs without improvement: 3/15
+Epoch 61/100 | Batch 1/1024 | Loss 0.061632
+Epoch 61/100 | Batch 100/1024 | Loss 0.063531
+Epoch 61/100 | Batch 200/1024 | Loss 0.052413
+Epoch 61/100 | Batch 300/1024 | Loss 0.060469
+Epoch 61/100 | Batch 400/1024 | Loss 0.052430
+Epoch 61/100 | Batch 500/1024 | Loss 0.060634
+Epoch 61/100 | Batch 600/1024 | Loss 0.064722
+Epoch 61/100 | Batch 700/1024 | Loss 0.042441
+Epoch 61/100 | Batch 800/1024 | Loss 0.064543
+Epoch 61/100 | Batch 900/1024 | Loss 0.060888
+Epoch 61/100 | Batch 1000/1024 | Loss 0.054697
+
+----------------------------------------------------------------------
+Epoch 61/100 COMPLETE
+Train Loss : 0.057649
+Val Loss   : 0.053347
+Val PSNR   : 24.2717 dB
+Val SSIM   : 0.610446
+Time       : 249.48 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 62/100 | Batch 1/1024 | Loss 0.057396
+Epoch 62/100 | Batch 100/1024 | Loss 0.065676
+Epoch 62/100 | Batch 200/1024 | Loss 0.055009
+Epoch 62/100 | Batch 300/1024 | Loss 0.055638
+Epoch 62/100 | Batch 400/1024 | Loss 0.062408
+Epoch 62/100 | Batch 500/1024 | Loss 0.066267
+Epoch 62/100 | Batch 600/1024 | Loss 0.041618
+Epoch 62/100 | Batch 700/1024 | Loss 0.049619
+Epoch 62/100 | Batch 800/1024 | Loss 0.056947
+Epoch 62/100 | Batch 900/1024 | Loss 0.075968
+Epoch 62/100 | Batch 1000/1024 | Loss 0.059210
+
+----------------------------------------------------------------------
+Epoch 62/100 COMPLETE
+Train Loss : 0.057644
+Val Loss   : 0.053056
+Val PSNR   : 24.2606 dB
+Val SSIM   : 0.612282
+Time       : 245.00 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 63/100 | Batch 1/1024 | Loss 0.048531
+Epoch 63/100 | Batch 100/1024 | Loss 0.064723
+Epoch 63/100 | Batch 200/1024 | Loss 0.066142
+Epoch 63/100 | Batch 300/1024 | Loss 0.048477
+Epoch 63/100 | Batch 400/1024 | Loss 0.067515
+Epoch 63/100 | Batch 500/1024 | Loss 0.049409
+Epoch 63/100 | Batch 600/1024 | Loss 0.059364
+Epoch 63/100 | Batch 700/1024 | Loss 0.050130
+Epoch 63/100 | Batch 800/1024 | Loss 0.064774
+Epoch 63/100 | Batch 900/1024 | Loss 0.061521
+Epoch 63/100 | Batch 1000/1024 | Loss 0.046199
+
+----------------------------------------------------------------------
+Epoch 63/100 COMPLETE
+Train Loss : 0.057612
+Val Loss   : 0.053142
+Val PSNR   : 24.2373 dB
+Val SSIM   : 0.611645
+Time       : 248.74 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 64/100 | Batch 1/1024 | Loss 0.058580
+Epoch 64/100 | Batch 100/1024 | Loss 0.051044
+Epoch 64/100 | Batch 200/1024 | Loss 0.053209
+Epoch 64/100 | Batch 300/1024 | Loss 0.054517
+Epoch 64/100 | Batch 400/1024 | Loss 0.069092
+Epoch 64/100 | Batch 500/1024 | Loss 0.055071
+Epoch 64/100 | Batch 600/1024 | Loss 0.048448
+Epoch 64/100 | Batch 700/1024 | Loss 0.055575
+Epoch 64/100 | Batch 800/1024 | Loss 0.058861
+Epoch 64/100 | Batch 900/1024 | Loss 0.058997
+Epoch 64/100 | Batch 1000/1024 | Loss 0.067403
+
+----------------------------------------------------------------------
+Epoch 64/100 COMPLETE
+Train Loss : 0.057578
+Val Loss   : 0.053432
+Val PSNR   : 24.2125 dB
+Val SSIM   : 0.614396
+Time       : 252.63 sec
+----------------------------------------------------------------------
+Epochs without improvement: 3/15
+Epoch 65/100 | Batch 1/1024 | Loss 0.056650
+Epoch 65/100 | Batch 100/1024 | Loss 0.053021
+Epoch 65/100 | Batch 200/1024 | Loss 0.059733
+Epoch 65/100 | Batch 300/1024 | Loss 0.050606
+Epoch 65/100 | Batch 400/1024 | Loss 0.065807
+Epoch 65/100 | Batch 500/1024 | Loss 0.050016
+Epoch 65/100 | Batch 600/1024 | Loss 0.053778
+Epoch 65/100 | Batch 700/1024 | Loss 0.075521
+Epoch 65/100 | Batch 800/1024 | Loss 0.061626
+Epoch 65/100 | Batch 900/1024 | Loss 0.062712
+Epoch 65/100 | Batch 1000/1024 | Loss 0.056058
+
+----------------------------------------------------------------------
+Epoch 65/100 COMPLETE
+Train Loss : 0.057509
+Val Loss   : 0.052896
+Val PSNR   : 24.3046 dB
+Val SSIM   : 0.612902
+Time       : 257.00 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 66/100 | Batch 1/1024 | Loss 0.058057
+Epoch 66/100 | Batch 100/1024 | Loss 0.072381
+Epoch 66/100 | Batch 200/1024 | Loss 0.053477
+Epoch 66/100 | Batch 300/1024 | Loss 0.065224
+Epoch 66/100 | Batch 400/1024 | Loss 0.052254
+Epoch 66/100 | Batch 500/1024 | Loss 0.051643
+Epoch 66/100 | Batch 600/1024 | Loss 0.064682
+Epoch 66/100 | Batch 700/1024 | Loss 0.048976
+Epoch 66/100 | Batch 800/1024 | Loss 0.048690
+Epoch 66/100 | Batch 900/1024 | Loss 0.067992
+Epoch 66/100 | Batch 1000/1024 | Loss 0.064486
+
+----------------------------------------------------------------------
+Epoch 66/100 COMPLETE
+Train Loss : 0.057522
+Val Loss   : 0.053226
+Val PSNR   : 24.2786 dB
+Val SSIM   : 0.612415
+Time       : 3109.24 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 67/100 | Batch 1/1024 | Loss 0.050643
+Epoch 67/100 | Batch 100/1024 | Loss 0.060653
+Epoch 67/100 | Batch 200/1024 | Loss 0.054760
+Epoch 67/100 | Batch 300/1024 | Loss 0.054082
+Epoch 67/100 | Batch 400/1024 | Loss 0.052990
+Epoch 67/100 | Batch 500/1024 | Loss 0.050488
+Epoch 67/100 | Batch 600/1024 | Loss 0.049600
+Epoch 67/100 | Batch 700/1024 | Loss 0.064804
+Epoch 67/100 | Batch 800/1024 | Loss 0.043567
+Epoch 67/100 | Batch 900/1024 | Loss 0.059649
+Epoch 67/100 | Batch 1000/1024 | Loss 0.047864
+
+----------------------------------------------------------------------
+Epoch 67/100 COMPLETE
+Train Loss : 0.057519
+Val Loss   : 0.052970
+Val PSNR   : 24.2945 dB
+Val SSIM   : 0.612665
+Time       : 278.49 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 68/100 | Batch 1/1024 | Loss 0.057678
+Epoch 68/100 | Batch 100/1024 | Loss 0.059823
+Epoch 68/100 | Batch 200/1024 | Loss 0.054687
+Epoch 68/100 | Batch 300/1024 | Loss 0.067446
+Epoch 68/100 | Batch 400/1024 | Loss 0.057181
+Epoch 68/100 | Batch 500/1024 | Loss 0.060833
+Epoch 68/100 | Batch 600/1024 | Loss 0.044027
+Epoch 68/100 | Batch 700/1024 | Loss 0.052441
+Epoch 68/100 | Batch 800/1024 | Loss 0.051505
+Epoch 68/100 | Batch 900/1024 | Loss 0.050949
+Epoch 68/100 | Batch 1000/1024 | Loss 0.048484
+
+----------------------------------------------------------------------
+Epoch 68/100 COMPLETE
+Train Loss : 0.057484
+Val Loss   : 0.053443
+Val PSNR   : 24.2156 dB
+Val SSIM   : 0.608576
+Time       : 275.45 sec
+----------------------------------------------------------------------
+Epochs without improvement: 3/15
+Epoch 69/100 | Batch 1/1024 | Loss 0.058493
+Epoch 69/100 | Batch 100/1024 | Loss 0.047883
+Epoch 69/100 | Batch 200/1024 | Loss 0.062440
+Epoch 69/100 | Batch 300/1024 | Loss 0.053558
+Epoch 69/100 | Batch 400/1024 | Loss 0.056643
+Epoch 69/100 | Batch 500/1024 | Loss 0.055319
+Epoch 69/100 | Batch 600/1024 | Loss 0.051871
+Epoch 69/100 | Batch 700/1024 | Loss 0.042788
+Epoch 69/100 | Batch 800/1024 | Loss 0.066384
+Epoch 69/100 | Batch 900/1024 | Loss 0.064638
+Epoch 69/100 | Batch 1000/1024 | Loss 0.060103
+
+----------------------------------------------------------------------
+Epoch 69/100 COMPLETE
+Train Loss : 0.057414
+Val Loss   : 0.053228
+Val PSNR   : 24.2446 dB
+Val SSIM   : 0.612833
+Time       : 258.40 sec
+----------------------------------------------------------------------
+Epochs without improvement: 4/15
+Epoch 70/100 | Batch 1/1024 | Loss 0.063783
+Epoch 70/100 | Batch 100/1024 | Loss 0.049067
+Epoch 70/100 | Batch 200/1024 | Loss 0.055276
+Epoch 70/100 | Batch 300/1024 | Loss 0.046681
+Epoch 70/100 | Batch 400/1024 | Loss 0.060675
+Epoch 70/100 | Batch 500/1024 | Loss 0.056696
+Epoch 70/100 | Batch 600/1024 | Loss 0.060003
+Epoch 70/100 | Batch 700/1024 | Loss 0.045726
+Epoch 70/100 | Batch 800/1024 | Loss 0.058796
+Epoch 70/100 | Batch 900/1024 | Loss 0.052392
+Epoch 70/100 | Batch 1000/1024 | Loss 0.072153
+
+----------------------------------------------------------------------
+Epoch 70/100 COMPLETE
+Train Loss : 0.057427
+Val Loss   : 0.053973
+Val PSNR   : 24.1686 dB
+Val SSIM   : 0.611216
+Time       : 255.83 sec
+----------------------------------------------------------------------
+Epochs without improvement: 5/15
+Epoch 71/100 | Batch 1/1024 | Loss 0.066378
+Epoch 71/100 | Batch 100/1024 | Loss 0.062858
+Epoch 71/100 | Batch 200/1024 | Loss 0.045310
+Epoch 71/100 | Batch 300/1024 | Loss 0.052789
+Epoch 71/100 | Batch 400/1024 | Loss 0.057590
+Epoch 71/100 | Batch 500/1024 | Loss 0.052942
+Epoch 71/100 | Batch 600/1024 | Loss 0.059796
+Epoch 71/100 | Batch 700/1024 | Loss 0.056587
+Epoch 71/100 | Batch 800/1024 | Loss 0.055338
+Epoch 71/100 | Batch 900/1024 | Loss 0.044169
+Epoch 71/100 | Batch 1000/1024 | Loss 0.060423
+
+----------------------------------------------------------------------
+Epoch 71/100 COMPLETE
+Train Loss : 0.057397
+Val Loss   : 0.053212
+Val PSNR   : 24.2071 dB
+Val SSIM   : 0.612711
+Time       : 252.44 sec
+----------------------------------------------------------------------
+Epochs without improvement: 6/15
+Epoch 72/100 | Batch 1/1024 | Loss 0.052127
+Epoch 72/100 | Batch 100/1024 | Loss 0.055185
+Epoch 72/100 | Batch 200/1024 | Loss 0.054498
+Epoch 72/100 | Batch 300/1024 | Loss 0.070789
+Epoch 72/100 | Batch 400/1024 | Loss 0.053929
+Epoch 72/100 | Batch 500/1024 | Loss 0.044061
+Epoch 72/100 | Batch 600/1024 | Loss 0.060131
+Epoch 72/100 | Batch 700/1024 | Loss 0.058041
+Epoch 72/100 | Batch 800/1024 | Loss 0.048207
+Epoch 72/100 | Batch 900/1024 | Loss 0.060128
+Epoch 72/100 | Batch 1000/1024 | Loss 0.050813
+
+----------------------------------------------------------------------
+Epoch 72/100 COMPLETE
+Train Loss : 0.057371
+Val Loss   : 0.052966
+Val PSNR   : 24.2789 dB
+Val SSIM   : 0.612470
+Time       : 381.06 sec
+----------------------------------------------------------------------
+Epochs without improvement: 7/15
+Epoch 73/100 | Batch 1/1024 | Loss 0.083824
+Epoch 73/100 | Batch 100/1024 | Loss 0.061575
+Epoch 73/100 | Batch 200/1024 | Loss 0.051551
+Epoch 73/100 | Batch 300/1024 | Loss 0.052914
+Epoch 73/100 | Batch 400/1024 | Loss 0.053010
+Epoch 73/100 | Batch 500/1024 | Loss 0.064223
+Epoch 73/100 | Batch 600/1024 | Loss 0.066901
+Epoch 73/100 | Batch 700/1024 | Loss 0.063571
+Epoch 73/100 | Batch 800/1024 | Loss 0.063848
+Epoch 73/100 | Batch 900/1024 | Loss 0.059590
+Epoch 73/100 | Batch 1000/1024 | Loss 0.057811
+
+----------------------------------------------------------------------
+Epoch 73/100 COMPLETE
+Train Loss : 0.057375
+Val Loss   : 0.053276
+Val PSNR   : 24.2674 dB
+Val SSIM   : 0.614255
+Time       : 262.72 sec
+----------------------------------------------------------------------
+Epochs without improvement: 8/15
+Epoch 74/100 | Batch 1/1024 | Loss 0.062902
+Epoch 74/100 | Batch 100/1024 | Loss 0.052795
+Epoch 74/100 | Batch 200/1024 | Loss 0.058061
+Epoch 74/100 | Batch 300/1024 | Loss 0.050087
+Epoch 74/100 | Batch 400/1024 | Loss 0.057324
+Epoch 74/100 | Batch 500/1024 | Loss 0.055595
+Epoch 74/100 | Batch 600/1024 | Loss 0.069780
+Epoch 74/100 | Batch 700/1024 | Loss 0.050746
+Epoch 74/100 | Batch 800/1024 | Loss 0.048998
+Epoch 74/100 | Batch 900/1024 | Loss 0.058534
+Epoch 74/100 | Batch 1000/1024 | Loss 0.051338
+
+----------------------------------------------------------------------
+Epoch 74/100 COMPLETE
+Train Loss : 0.057385
+Val Loss   : 0.053035
+Val PSNR   : 24.3094 dB
+Val SSIM   : 0.610915
+Time       : 240.85 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 75/100 | Batch 1/1024 | Loss 0.055397
+Epoch 75/100 | Batch 100/1024 | Loss 0.065471
+Epoch 75/100 | Batch 200/1024 | Loss 0.052851
+Epoch 75/100 | Batch 300/1024 | Loss 0.055011
+Epoch 75/100 | Batch 400/1024 | Loss 0.058201
+Epoch 75/100 | Batch 500/1024 | Loss 0.051126
+Epoch 75/100 | Batch 600/1024 | Loss 0.046624
+Epoch 75/100 | Batch 700/1024 | Loss 0.053421
+Epoch 75/100 | Batch 800/1024 | Loss 0.059699
+Epoch 75/100 | Batch 900/1024 | Loss 0.058885
+Epoch 75/100 | Batch 1000/1024 | Loss 0.057881
+
+----------------------------------------------------------------------
+Epoch 75/100 COMPLETE
+Train Loss : 0.057324
+Val Loss   : 0.053340
+Val PSNR   : 24.2203 dB
+Val SSIM   : 0.613591
+Time       : 236.24 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 76/100 | Batch 1/1024 | Loss 0.053686
+Epoch 76/100 | Batch 100/1024 | Loss 0.054116
+Epoch 76/100 | Batch 200/1024 | Loss 0.051508
+Epoch 76/100 | Batch 300/1024 | Loss 0.070812
+Epoch 76/100 | Batch 400/1024 | Loss 0.066437
+Epoch 76/100 | Batch 500/1024 | Loss 0.060358
+Epoch 76/100 | Batch 600/1024 | Loss 0.052106
+Epoch 76/100 | Batch 700/1024 | Loss 0.061064
+Epoch 76/100 | Batch 800/1024 | Loss 0.053015
+Epoch 76/100 | Batch 900/1024 | Loss 0.068250
+Epoch 76/100 | Batch 1000/1024 | Loss 0.055297
+
+----------------------------------------------------------------------
+Epoch 76/100 COMPLETE
+Train Loss : 0.057286
+Val Loss   : 0.052884
+Val PSNR   : 24.2874 dB
+Val SSIM   : 0.610325
+Time       : 236.25 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 77/100 | Batch 1/1024 | Loss 0.055421
+Epoch 77/100 | Batch 100/1024 | Loss 0.059048
+Epoch 77/100 | Batch 200/1024 | Loss 0.053857
+Epoch 77/100 | Batch 300/1024 | Loss 0.069770
+Epoch 77/100 | Batch 400/1024 | Loss 0.060629
+Epoch 77/100 | Batch 500/1024 | Loss 0.053434
+Epoch 77/100 | Batch 600/1024 | Loss 0.077488
+Epoch 77/100 | Batch 700/1024 | Loss 0.047941
+Epoch 77/100 | Batch 800/1024 | Loss 0.055931
+Epoch 77/100 | Batch 900/1024 | Loss 0.057126
+Epoch 77/100 | Batch 1000/1024 | Loss 0.046977
+
+----------------------------------------------------------------------
+Epoch 77/100 COMPLETE
+Train Loss : 0.057293
+Val Loss   : 0.053420
+Val PSNR   : 24.1998 dB
+Val SSIM   : 0.615778
+Time       : 240.61 sec
+----------------------------------------------------------------------
+Epochs without improvement: 3/15
+Epoch 78/100 | Batch 1/1024 | Loss 0.044297
+Epoch 78/100 | Batch 100/1024 | Loss 0.064110
+Epoch 78/100 | Batch 200/1024 | Loss 0.054757
+Epoch 78/100 | Batch 300/1024 | Loss 0.051016
+Epoch 78/100 | Batch 400/1024 | Loss 0.059913
+Epoch 78/100 | Batch 500/1024 | Loss 0.066784
+Epoch 78/100 | Batch 600/1024 | Loss 0.076341
+Epoch 78/100 | Batch 700/1024 | Loss 0.049097
+Epoch 78/100 | Batch 800/1024 | Loss 0.061515
+Epoch 78/100 | Batch 900/1024 | Loss 0.057503
+Epoch 78/100 | Batch 1000/1024 | Loss 0.049484
+
+----------------------------------------------------------------------
+Epoch 78/100 COMPLETE
+Train Loss : 0.057271
+Val Loss   : 0.053406
+Val PSNR   : 24.2213 dB
+Val SSIM   : 0.615688
+Time       : 237.71 sec
+----------------------------------------------------------------------
+Epochs without improvement: 4/15
+Epoch 79/100 | Batch 1/1024 | Loss 0.055653
+Epoch 79/100 | Batch 100/1024 | Loss 0.056521
+Epoch 79/100 | Batch 200/1024 | Loss 0.052553
+Epoch 79/100 | Batch 300/1024 | Loss 0.057417
+Epoch 79/100 | Batch 400/1024 | Loss 0.047526
+Epoch 79/100 | Batch 500/1024 | Loss 0.047044
+Epoch 79/100 | Batch 600/1024 | Loss 0.051613
+Epoch 79/100 | Batch 700/1024 | Loss 0.054078
+Epoch 79/100 | Batch 800/1024 | Loss 0.056616
+Epoch 79/100 | Batch 900/1024 | Loss 0.057373
+Epoch 79/100 | Batch 1000/1024 | Loss 0.056229
+
+----------------------------------------------------------------------
+Epoch 79/100 COMPLETE
+Train Loss : 0.057229
+Val Loss   : 0.053154
+Val PSNR   : 24.2560 dB
+Val SSIM   : 0.609903
+Time       : 905.30 sec
+----------------------------------------------------------------------
+Epochs without improvement: 5/15
+Epoch 80/100 | Batch 1/1024 | Loss 0.061319
+Epoch 80/100 | Batch 100/1024 | Loss 0.073167
+Epoch 80/100 | Batch 200/1024 | Loss 0.064885
+Epoch 80/100 | Batch 300/1024 | Loss 0.043667
+Epoch 80/100 | Batch 400/1024 | Loss 0.052262
+Epoch 80/100 | Batch 500/1024 | Loss 0.052468
+Epoch 80/100 | Batch 600/1024 | Loss 0.061104
+Epoch 80/100 | Batch 700/1024 | Loss 0.071918
+Epoch 80/100 | Batch 800/1024 | Loss 0.062083
+Epoch 80/100 | Batch 900/1024 | Loss 0.059058
+Epoch 80/100 | Batch 1000/1024 | Loss 0.061305
+
+----------------------------------------------------------------------
+Epoch 80/100 COMPLETE
+Train Loss : 0.057210
+Val Loss   : 0.053364
+Val PSNR   : 24.1825 dB
+Val SSIM   : 0.611805
+Time       : 296.40 sec
+----------------------------------------------------------------------
+Epochs without improvement: 6/15
+Epoch 81/100 | Batch 1/1024 | Loss 0.047856
+Epoch 81/100 | Batch 100/1024 | Loss 0.056210
+Epoch 81/100 | Batch 200/1024 | Loss 0.058430
+Epoch 81/100 | Batch 300/1024 | Loss 0.056372
+Epoch 81/100 | Batch 400/1024 | Loss 0.054795
+Epoch 81/100 | Batch 500/1024 | Loss 0.070585
+Epoch 81/100 | Batch 600/1024 | Loss 0.075562
+Epoch 81/100 | Batch 700/1024 | Loss 0.052875
+Epoch 81/100 | Batch 800/1024 | Loss 0.057485
+Epoch 81/100 | Batch 900/1024 | Loss 0.061599
+Epoch 81/100 | Batch 1000/1024 | Loss 0.045977
+
+----------------------------------------------------------------------
+Epoch 81/100 COMPLETE
+Train Loss : 0.057206
+Val Loss   : 0.053156
+Val PSNR   : 24.2381 dB
+Val SSIM   : 0.608616
+Time       : 246.92 sec
+----------------------------------------------------------------------
+Epochs without improvement: 7/15
+Epoch 82/100 | Batch 1/1024 | Loss 0.059607
+Epoch 82/100 | Batch 100/1024 | Loss 0.058071
+Epoch 82/100 | Batch 200/1024 | Loss 0.052195
+Epoch 82/100 | Batch 300/1024 | Loss 0.068000
+Epoch 82/100 | Batch 400/1024 | Loss 0.057257
+Epoch 82/100 | Batch 500/1024 | Loss 0.060936
+Epoch 82/100 | Batch 600/1024 | Loss 0.053336
+Epoch 82/100 | Batch 700/1024 | Loss 0.056965
+Epoch 82/100 | Batch 800/1024 | Loss 0.049391
+Epoch 82/100 | Batch 900/1024 | Loss 0.066998
+Epoch 82/100 | Batch 1000/1024 | Loss 0.073635
+
+----------------------------------------------------------------------
+Epoch 82/100 COMPLETE
+Train Loss : 0.057226
+Val Loss   : 0.052835
+Val PSNR   : 24.2925 dB
+Val SSIM   : 0.609750
+Time       : 242.87 sec
+----------------------------------------------------------------------
+Epochs without improvement: 8/15
+Epoch 83/100 | Batch 1/1024 | Loss 0.054509
+Epoch 83/100 | Batch 100/1024 | Loss 0.062211
+Epoch 83/100 | Batch 200/1024 | Loss 0.069894
+Epoch 83/100 | Batch 300/1024 | Loss 0.068373
+Epoch 83/100 | Batch 400/1024 | Loss 0.054416
+Epoch 83/100 | Batch 500/1024 | Loss 0.053815
+Epoch 83/100 | Batch 600/1024 | Loss 0.057962
+Epoch 83/100 | Batch 700/1024 | Loss 0.061435
+Epoch 83/100 | Batch 800/1024 | Loss 0.058886
+Epoch 83/100 | Batch 900/1024 | Loss 0.062219
+Epoch 83/100 | Batch 1000/1024 | Loss 0.067275
+
+----------------------------------------------------------------------
+Epoch 83/100 COMPLETE
+Train Loss : 0.057142
+Val Loss   : 0.052739
+Val PSNR   : 24.3234 dB
+Val SSIM   : 0.611485
+Time       : 335.66 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 84/100 | Batch 1/1024 | Loss 0.062797
+Epoch 84/100 | Batch 100/1024 | Loss 0.056200
+Epoch 84/100 | Batch 200/1024 | Loss 0.063408
+Epoch 84/100 | Batch 300/1024 | Loss 0.054954
+Epoch 84/100 | Batch 400/1024 | Loss 0.048008
+Epoch 84/100 | Batch 500/1024 | Loss 0.050114
+Epoch 84/100 | Batch 600/1024 | Loss 0.061062
+Epoch 84/100 | Batch 700/1024 | Loss 0.059790
+Epoch 84/100 | Batch 800/1024 | Loss 0.062631
+Epoch 84/100 | Batch 900/1024 | Loss 0.064013
+Epoch 84/100 | Batch 1000/1024 | Loss 0.062662
+
+----------------------------------------------------------------------
+Epoch 84/100 COMPLETE
+Train Loss : 0.057123
+Val Loss   : 0.052880
+Val PSNR   : 24.3015 dB
+Val SSIM   : 0.613113
+Time       : 347.24 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 85/100 | Batch 1/1024 | Loss 0.053518
+Epoch 85/100 | Batch 100/1024 | Loss 0.053953
+Epoch 85/100 | Batch 200/1024 | Loss 0.046856
+Epoch 85/100 | Batch 300/1024 | Loss 0.073558
+Epoch 85/100 | Batch 400/1024 | Loss 0.053408
+Epoch 85/100 | Batch 500/1024 | Loss 0.049877
+Epoch 85/100 | Batch 600/1024 | Loss 0.048709
+Epoch 85/100 | Batch 700/1024 | Loss 0.061642
+Epoch 85/100 | Batch 800/1024 | Loss 0.063613
+Epoch 85/100 | Batch 900/1024 | Loss 0.052828
+Epoch 85/100 | Batch 1000/1024 | Loss 0.063087
+
+----------------------------------------------------------------------
+Epoch 85/100 COMPLETE
+Train Loss : 0.057139
+Val Loss   : 0.053222
+Val PSNR   : 24.2200 dB
+Val SSIM   : 0.612743
+Time       : 290.32 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 86/100 | Batch 1/1024 | Loss 0.066838
+Epoch 86/100 | Batch 100/1024 | Loss 0.059862
+Epoch 86/100 | Batch 200/1024 | Loss 0.055872
+Epoch 86/100 | Batch 300/1024 | Loss 0.060048
+Epoch 86/100 | Batch 400/1024 | Loss 0.049708
+Epoch 86/100 | Batch 500/1024 | Loss 0.052603
+Epoch 86/100 | Batch 600/1024 | Loss 0.045462
+Epoch 86/100 | Batch 700/1024 | Loss 0.053660
+Epoch 86/100 | Batch 800/1024 | Loss 0.062795
+Epoch 86/100 | Batch 900/1024 | Loss 0.055560
+Epoch 86/100 | Batch 1000/1024 | Loss 0.060376
+
+----------------------------------------------------------------------
+Epoch 86/100 COMPLETE
+Train Loss : 0.057120
+Val Loss   : 0.053067
+Val PSNR   : 24.2601 dB
+Val SSIM   : 0.613863
+Time       : 292.15 sec
+----------------------------------------------------------------------
+Epochs without improvement: 3/15
+Epoch 87/100 | Batch 1/1024 | Loss 0.050602
+Epoch 87/100 | Batch 100/1024 | Loss 0.058387
+Epoch 87/100 | Batch 200/1024 | Loss 0.075627
+Epoch 87/100 | Batch 300/1024 | Loss 0.049514
+Epoch 87/100 | Batch 400/1024 | Loss 0.047755
+Epoch 87/100 | Batch 500/1024 | Loss 0.047958
+Epoch 87/100 | Batch 600/1024 | Loss 0.058583
+Epoch 87/100 | Batch 700/1024 | Loss 0.046120
+Epoch 87/100 | Batch 800/1024 | Loss 0.050208
+Epoch 87/100 | Batch 900/1024 | Loss 0.058562
+Epoch 87/100 | Batch 1000/1024 | Loss 0.046009
+
+----------------------------------------------------------------------
+Epoch 87/100 COMPLETE
+Train Loss : 0.057123
+Val Loss   : 0.053249
+Val PSNR   : 24.2393 dB
+Val SSIM   : 0.614047
+Time       : 294.78 sec
+----------------------------------------------------------------------
+Epochs without improvement: 4/15
+Epoch 88/100 | Batch 1/1024 | Loss 0.052165
+Epoch 88/100 | Batch 100/1024 | Loss 0.052775
+Epoch 88/100 | Batch 200/1024 | Loss 0.051152
+Epoch 88/100 | Batch 300/1024 | Loss 0.045278
+Epoch 88/100 | Batch 400/1024 | Loss 0.050446
+Epoch 88/100 | Batch 500/1024 | Loss 0.067378
+Epoch 88/100 | Batch 600/1024 | Loss 0.053917
+Epoch 88/100 | Batch 700/1024 | Loss 0.057062
+Epoch 88/100 | Batch 800/1024 | Loss 0.066648
+Epoch 88/100 | Batch 900/1024 | Loss 0.060238
+Epoch 88/100 | Batch 1000/1024 | Loss 0.057471
+
+----------------------------------------------------------------------
+Epoch 88/100 COMPLETE
+Train Loss : 0.057106
+Val Loss   : 0.053278
+Val PSNR   : 24.2171 dB
+Val SSIM   : 0.614681
+Time       : 265.05 sec
+----------------------------------------------------------------------
+Epochs without improvement: 5/15
+Epoch 89/100 | Batch 1/1024 | Loss 0.064984
+Epoch 89/100 | Batch 100/1024 | Loss 0.067807
+Epoch 89/100 | Batch 200/1024 | Loss 0.054690
+Epoch 89/100 | Batch 300/1024 | Loss 0.062793
+Epoch 89/100 | Batch 400/1024 | Loss 0.049073
+Epoch 89/100 | Batch 500/1024 | Loss 0.054659
+Epoch 89/100 | Batch 600/1024 | Loss 0.059237
+Epoch 89/100 | Batch 700/1024 | Loss 0.079851
+Epoch 89/100 | Batch 800/1024 | Loss 0.055421
+Epoch 89/100 | Batch 900/1024 | Loss 0.059621
+Epoch 89/100 | Batch 1000/1024 | Loss 0.071497
+
+----------------------------------------------------------------------
+Epoch 89/100 COMPLETE
+Train Loss : 0.057046
+Val Loss   : 0.052933
+Val PSNR   : 24.3134 dB
+Val SSIM   : 0.610549
+Time       : 267.31 sec
+----------------------------------------------------------------------
+Epochs without improvement: 6/15
+Epoch 90/100 | Batch 1/1024 | Loss 0.052724
+Epoch 90/100 | Batch 100/1024 | Loss 0.054927
+Epoch 90/100 | Batch 200/1024 | Loss 0.054858
+Epoch 90/100 | Batch 300/1024 | Loss 0.068578
+Epoch 90/100 | Batch 400/1024 | Loss 0.034807
+Epoch 90/100 | Batch 500/1024 | Loss 0.053703
+Epoch 90/100 | Batch 600/1024 | Loss 0.058531
+Epoch 90/100 | Batch 700/1024 | Loss 0.067418
+Epoch 90/100 | Batch 800/1024 | Loss 0.051320
+Epoch 90/100 | Batch 900/1024 | Loss 0.055075
+Epoch 90/100 | Batch 1000/1024 | Loss 0.050873
+
+----------------------------------------------------------------------
+Epoch 90/100 COMPLETE
+Train Loss : 0.057046
+Val Loss   : 0.052856
+Val PSNR   : 24.3211 dB
+Val SSIM   : 0.612468
+Time       : 258.27 sec
+----------------------------------------------------------------------
+Epochs without improvement: 7/15
+Epoch 91/100 | Batch 1/1024 | Loss 0.056231
+Epoch 91/100 | Batch 100/1024 | Loss 0.056876
+Epoch 91/100 | Batch 200/1024 | Loss 0.053581
+Epoch 91/100 | Batch 300/1024 | Loss 0.054383
+Epoch 91/100 | Batch 400/1024 | Loss 0.054381
+Epoch 91/100 | Batch 500/1024 | Loss 0.050776
+Epoch 91/100 | Batch 600/1024 | Loss 0.066961
+Epoch 91/100 | Batch 700/1024 | Loss 0.049922
+Epoch 91/100 | Batch 800/1024 | Loss 0.060119
+Epoch 91/100 | Batch 900/1024 | Loss 0.050461
+Epoch 91/100 | Batch 1000/1024 | Loss 0.058833
+
+----------------------------------------------------------------------
+Epoch 91/100 COMPLETE
+Train Loss : 0.057048
+Val Loss   : 0.052779
+Val PSNR   : 24.3081 dB
+Val SSIM   : 0.612610
+Time       : 260.19 sec
+----------------------------------------------------------------------
+Epochs without improvement: 8/15
+Epoch 92/100 | Batch 1/1024 | Loss 0.054385
+Epoch 92/100 | Batch 100/1024 | Loss 0.050254
+Epoch 92/100 | Batch 200/1024 | Loss 0.058304
+Epoch 92/100 | Batch 300/1024 | Loss 0.059900
+Epoch 92/100 | Batch 400/1024 | Loss 0.047799
+Epoch 92/100 | Batch 500/1024 | Loss 0.055717
+Epoch 92/100 | Batch 600/1024 | Loss 0.062546
+Epoch 92/100 | Batch 700/1024 | Loss 0.051507
+Epoch 92/100 | Batch 800/1024 | Loss 0.053592
+Epoch 92/100 | Batch 900/1024 | Loss 0.067684
+Epoch 92/100 | Batch 1000/1024 | Loss 0.039976
+
+----------------------------------------------------------------------
+Epoch 92/100 COMPLETE
+Train Loss : 0.057021
+Val Loss   : 0.052980
+Val PSNR   : 24.2733 dB
+Val SSIM   : 0.616896
+Time       : 276.01 sec
+----------------------------------------------------------------------
+Epochs without improvement: 9/15
+Epoch 93/100 | Batch 1/1024 | Loss 0.061109
+Epoch 93/100 | Batch 100/1024 | Loss 0.053735
+Epoch 93/100 | Batch 200/1024 | Loss 0.053608
+Epoch 93/100 | Batch 300/1024 | Loss 0.074057
+Epoch 93/100 | Batch 400/1024 | Loss 0.056680
+Epoch 93/100 | Batch 500/1024 | Loss 0.053461
+Epoch 93/100 | Batch 600/1024 | Loss 0.064894
+Epoch 93/100 | Batch 700/1024 | Loss 0.067459
+Epoch 93/100 | Batch 800/1024 | Loss 0.048617
+Epoch 93/100 | Batch 900/1024 | Loss 0.047059
+Epoch 93/100 | Batch 1000/1024 | Loss 0.049293
+
+----------------------------------------------------------------------
+Epoch 93/100 COMPLETE
+Train Loss : 0.057006
+Val Loss   : 0.052843
+Val PSNR   : 24.3503 dB
+Val SSIM   : 0.611383
+Time       : 391.21 sec
+----------------------------------------------------------------------
+NEW BEST CHECKPOINT → /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Epochs without improvement: 0/15
+Epoch 94/100 | Batch 1/1024 | Loss 0.063191
+Epoch 94/100 | Batch 100/1024 | Loss 0.054882
+Epoch 94/100 | Batch 200/1024 | Loss 0.054342
+Epoch 94/100 | Batch 300/1024 | Loss 0.055548
+Epoch 94/100 | Batch 400/1024 | Loss 0.046791
+Epoch 94/100 | Batch 500/1024 | Loss 0.056015
+Epoch 94/100 | Batch 600/1024 | Loss 0.056113
+Epoch 94/100 | Batch 700/1024 | Loss 0.078552
+Epoch 94/100 | Batch 800/1024 | Loss 0.055687
+Epoch 94/100 | Batch 900/1024 | Loss 0.049964
+Epoch 94/100 | Batch 1000/1024 | Loss 0.065876
+
+----------------------------------------------------------------------
+Epoch 94/100 COMPLETE
+Train Loss : 0.056981
+Val Loss   : 0.053071
+Val PSNR   : 24.2590 dB
+Val SSIM   : 0.613852
+Time       : 320.51 sec
+----------------------------------------------------------------------
+Epochs without improvement: 1/15
+Epoch 95/100 | Batch 1/1024 | Loss 0.043474
+Epoch 95/100 | Batch 100/1024 | Loss 0.060754
+Epoch 95/100 | Batch 200/1024 | Loss 0.073686
+Epoch 95/100 | Batch 300/1024 | Loss 0.054322
+Epoch 95/100 | Batch 400/1024 | Loss 0.054225
+Epoch 95/100 | Batch 500/1024 | Loss 0.049893
+Epoch 95/100 | Batch 600/1024 | Loss 0.056600
+Epoch 95/100 | Batch 700/1024 | Loss 0.053626
+Epoch 95/100 | Batch 800/1024 | Loss 0.068862
+Epoch 95/100 | Batch 900/1024 | Loss 0.057074
+Epoch 95/100 | Batch 1000/1024 | Loss 0.059071
+
+----------------------------------------------------------------------
+Epoch 95/100 COMPLETE
+Train Loss : 0.056984
+Val Loss   : 0.053370
+Val PSNR   : 24.2539 dB
+Val SSIM   : 0.614417
+Time       : 270.38 sec
+----------------------------------------------------------------------
+Epochs without improvement: 2/15
+Epoch 96/100 | Batch 1/1024 | Loss 0.053809
+Epoch 96/100 | Batch 100/1024 | Loss 0.042717
+Epoch 96/100 | Batch 200/1024 | Loss 0.061589
+Epoch 96/100 | Batch 300/1024 | Loss 0.063546
+Epoch 96/100 | Batch 400/1024 | Loss 0.049632
+Epoch 96/100 | Batch 500/1024 | Loss 0.061929
+Epoch 96/100 | Batch 600/1024 | Loss 0.057663
+Epoch 96/100 | Batch 700/1024 | Loss 0.057101
+Epoch 96/100 | Batch 800/1024 | Loss 0.059707
+Epoch 96/100 | Batch 900/1024 | Loss 0.079997
+Epoch 96/100 | Batch 1000/1024 | Loss 0.060983
+
+----------------------------------------------------------------------
+Epoch 96/100 COMPLETE
+Train Loss : 0.056909
+Val Loss   : 0.053474
+Val PSNR   : 24.2212 dB
+Val SSIM   : 0.610673
+Time       : 264.83 sec
+----------------------------------------------------------------------
+Epochs without improvement: 3/15
+Epoch 97/100 | Batch 1/1024 | Loss 0.057855
+Epoch 97/100 | Batch 100/1024 | Loss 0.054530
+Epoch 97/100 | Batch 200/1024 | Loss 0.045249
+Epoch 97/100 | Batch 300/1024 | Loss 0.053832
+Epoch 97/100 | Batch 400/1024 | Loss 0.056088
+Epoch 97/100 | Batch 500/1024 | Loss 0.060773
+Epoch 97/100 | Batch 600/1024 | Loss 0.064169
+Epoch 97/100 | Batch 700/1024 | Loss 0.044492
+Epoch 97/100 | Batch 800/1024 | Loss 0.063441
+Epoch 97/100 | Batch 900/1024 | Loss 0.064158
+Epoch 97/100 | Batch 1000/1024 | Loss 0.067256
+
+----------------------------------------------------------------------
+Epoch 97/100 COMPLETE
+Train Loss : 0.056949
+Val Loss   : 0.052886
+Val PSNR   : 24.3236 dB
+Val SSIM   : 0.614307
+Time       : 243.15 sec
+----------------------------------------------------------------------
+Epochs without improvement: 4/15
+Epoch 98/100 | Batch 1/1024 | Loss 0.062130
+Epoch 98/100 | Batch 100/1024 | Loss 0.063889
+Epoch 98/100 | Batch 200/1024 | Loss 0.057870
+Epoch 98/100 | Batch 300/1024 | Loss 0.049575
+Epoch 98/100 | Batch 400/1024 | Loss 0.041623
+Epoch 98/100 | Batch 500/1024 | Loss 0.056690
+Epoch 98/100 | Batch 600/1024 | Loss 0.049581
+Epoch 98/100 | Batch 700/1024 | Loss 0.062579
+Epoch 98/100 | Batch 800/1024 | Loss 0.069365
+Epoch 98/100 | Batch 900/1024 | Loss 0.050635
+Epoch 98/100 | Batch 1000/1024 | Loss 0.060614
+
+----------------------------------------------------------------------
+Epoch 98/100 COMPLETE
+Train Loss : 0.056909
+Val Loss   : 0.052555
+Val PSNR   : 24.3181 dB
+Val SSIM   : 0.614446
+Time       : 248.46 sec
+----------------------------------------------------------------------
+Epochs without improvement: 5/15
+Epoch 99/100 | Batch 1/1024 | Loss 0.054309
+Epoch 99/100 | Batch 100/1024 | Loss 0.056934
+Epoch 99/100 | Batch 200/1024 | Loss 0.051284
+Epoch 99/100 | Batch 300/1024 | Loss 0.062187
+Epoch 99/100 | Batch 400/1024 | Loss 0.062454
+Epoch 99/100 | Batch 500/1024 | Loss 0.060109
+Epoch 99/100 | Batch 600/1024 | Loss 0.057954
+Epoch 99/100 | Batch 700/1024 | Loss 0.061352
+Epoch 99/100 | Batch 800/1024 | Loss 0.039791
+Epoch 99/100 | Batch 900/1024 | Loss 0.053199
+Epoch 99/100 | Batch 1000/1024 | Loss 0.050534
+
+----------------------------------------------------------------------
+Epoch 99/100 COMPLETE
+Train Loss : 0.056909
+Val Loss   : 0.053299
+Val PSNR   : 24.2206 dB
+Val SSIM   : 0.615775
+Time       : 244.31 sec
+----------------------------------------------------------------------
+Epochs without improvement: 6/15
+Epoch 100/100 | Batch 1/1024 | Loss 0.043710
+Epoch 100/100 | Batch 100/1024 | Loss 0.048093
+Epoch 100/100 | Batch 200/1024 | Loss 0.056462
+Epoch 100/100 | Batch 300/1024 | Loss 0.068263
+Epoch 100/100 | Batch 400/1024 | Loss 0.061982
+Epoch 100/100 | Batch 500/1024 | Loss 0.053869
+Epoch 100/100 | Batch 600/1024 | Loss 0.048285
+Epoch 100/100 | Batch 700/1024 | Loss 0.058444
+Epoch 100/100 | Batch 800/1024 | Loss 0.057083
+Epoch 100/100 | Batch 900/1024 | Loss 0.059919
+Epoch 100/100 | Batch 1000/1024 | Loss 0.063058
+
+----------------------------------------------------------------------
+Epoch 100/100 COMPLETE
+Train Loss : 0.056908
+Val Loss   : 0.052902
+Val PSNR   : 24.3005 dB
+Val SSIM   : 0.615259
+Time       : 295.82 sec
+----------------------------------------------------------------------
+Epochs without improvement: 7/15
+
+
+======================================================================
+PROPOSED TRAINING COMPLETE
+======================================================================
+Best epoch       : 93
+Best Val PSNR    : 24.3503 dB
+Total time       : 42523.23 sec
+Best checkpoint  : /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth
+Last checkpoint  : /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_last.pth
+History          : /mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/logs/conditioned_training_history.json
+======================================================================

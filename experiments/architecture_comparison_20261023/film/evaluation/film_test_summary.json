@@ -1,0 +1,23 @@
+{
+  "test_samples": 500,
+  "metric_protocol": "Per-image PSNR and skimage SSIM, predictions and targets clamped to [0,1], arithmetic mean over 500 images",
+  "baseline": {
+    "checkpoint": "/mnt/c/MSFFAN_Project/models/baseline_best.pth",
+    "sha256": "4f1843da5ad95cc9f4759e84cfc71d824b7f05227c9b448f7c004205faaca21c",
+    "psnr": 26.24058584460646,
+    "ssim": 0.6163356650471687
+  },
+  "film": {
+    "checkpoint": "/mnt/c/MSFFAN_Project/experiments/architecture_comparison_20261023/film/models/conditioned_best.pth",
+    "sha256": "3664376c0315fbf372a8cf4b59e09469315176d96c620b7667a6b43cb3c12c65",
+    "best_epoch": 93,
+    "psnr": 26.399752810527904,
+    "ssim": 0.6226941122114659
+  },
+  "difference": {
+    "psnr": 0.15916696592144955,
+    "ssim": 0.006358447164297104
+  },
+  "psnr_improved_images": 407,
+  "psnr_regressed_images": 93
+}
